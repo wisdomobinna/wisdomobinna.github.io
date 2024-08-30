@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,17 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-# Wisdom K. Obinna
-
-*Email:* wko7@georgetown.edu  
-*Website:* [wisdomobinna.github.io](https://wisdomobinna.github.io)  
-*LinkedIn:* [LinkedIn Profile](https://www.linkedin.com/in/wisdom-obinna/)  
-*Twitter:* [@wisdomobinnaa](https://twitter.com/wisdomobinnaa)
-
----
-
 ## Education
-======
 * **Ph.D. in Computer Science**, Georgetown University  
   *Advisor:* Elissa Redmiles
 
@@ -36,7 +26,6 @@ redirect_from:
 ---
 
 ## Work Experience
-======
 * **Research Fellow**, University of Sheffield, United Kingdom (2024 - Present)  
   *LTE Project*  
   *Advisor:* Bina Ogbebor
@@ -51,15 +40,12 @@ redirect_from:
 ---
 
 ## Skills
-======
 * **Data Analysis and Machine Learning (ML):** Python (NumPy, Pandas, SciPy, statsmodels, scikit-learn, PyTorch, Keras, spaCy, HuggingFace Transformers, NLTK), R (dplyr, igraph), SQL, Nvivo, SPSS
 * **Information Visualization:** Tableau, Power BI, Python (Matplotlib, seaborn, plotnine), R (ggplot2)
 * **Design and Development:** HTML/CSS, Javascript, React, Corel Draw, Adobe Photoshop, Illustrator, CMS, Python (streamlit, tkintr)
 
 ---
 
-## Publications
-======
 ## Publications and Presentations
 
 * **Wisdom K.O. (2023)**. Self-censorship within the Newsroom: Technological practices in the aftermath of a crisis. *Journal of New Media and Society* (manuscript under review).
@@ -73,17 +59,14 @@ redirect_from:
 ---
 
 ## Service and Leadership
-======
 * **President**, All African Post Graduate Research Network Society, United Kingdom
 * **Student Representative**, National Union of Students Conference, United Kingdom
 * **Departmental Representative**, University of Sheffield
 * **ICT Editorial Lead**, National Youth Service (NYSC)
 * **Convener**, OpenIQ code learning project, Nigeria
 * **Group Head**, Crowd Management Unit, Salvation Ministries International
-
 ---
 ## Professional Memberships and Affiliations
-======
 * **Fellow**, The Boardroom, United Kingdom
 * **Member**, Black in AI, USA
 * **Member**, AAPORG, United Kingdom
