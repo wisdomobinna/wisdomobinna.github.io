@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Wisdom Obinna"
   pronouns         : # example: "she/her"  
-  bio              : "Computer Science PhD, \n Georgetown University \n Digital Security, Trust and Safety"
+  bio              : "Computer Science PhD, \n Georgetown University \n Digital Security, Trust, and Safety"
   location         : "Washington, DC"
   employer         : "Georgetown University"
   URI              : #
@@ -34,7 +34,7 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : #"https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
-  orcid            : "https://www.orcid.org/0000-0003-1940-8754""
+  orcid            : "https://www.orcid.org/0000-0003-1940-8754"
   semantic         : # URL
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : #
