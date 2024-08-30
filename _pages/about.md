@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Computer Science Ph.D. Student at Georgetown University researching in the [Security Lab](https://seclab.cs.georgetown.edu/). I am supported by the [Fritz Research Fellowship](https://techandsociety.georgetown.edu/projects/fritz-family-fellows-program/) and the Graduate Merit Scholarship Award. I am broadly interested in Computer security, misinformation, networks, and Natural language processing. I completed a Masters' degree at the University of Sheffield School of Information with the [Allan and Nesta Ferguson Scholarship](https://www.sheffield.ac.uk/international/fees-and-funding/scholarships/postgraduate/ferguson) where I also served as a research Fellow. I completed my undergraduate degree in Computer Science at the University of Port Harcourt.
+I'm a Computer Science Ph.D. Student at Georgetown University researching in the [Security Lab](https://seclab.cs.georgetown.edu/). I am supported by the [Fritz Research Fellowship](https://techandsociety.georgetown.edu/projects/fritz-family-fellows-program/) and the Graduate Merit Scholarship Award. I am broadly interested in Computer security, misinformation, networks, and natural language processing. Basically, I am interested in a healthier information system. I completed a Masters' degree at the University of Sheffield School of Information with the [Allan and Nesta Ferguson Scholarship](https://www.sheffield.ac.uk/international/fees-and-funding/scholarships/postgraduate/ferguson) where I also served as a research Fellow. I completed my undergraduate degree in Computer Science at the University of Port Harcourt.
 
 [Download Full Academic CV](https://drive.google.com/file/d/1BZ97fQaTAqNLp8YUHXfC4tKxV0l9kieQ/view?usp=drive_link)
 
