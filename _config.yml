@@ -22,7 +22,10 @@ author:
   avatar           : "profile.png"
   name             : "Wisdom Obinna"
   pronouns         : # example: "she/her"  
-  bio              : "Computer Science Ph.D. \n Georgetown University \n Security, misinformation and NLP"
+  bio: |
+  Computer Science Ph.D.
+  Georgetown University
+  Security, misinformation and NLP 
   location         : "Washington, DC"
   employer         : "Georgetown University"
   URI              : #
