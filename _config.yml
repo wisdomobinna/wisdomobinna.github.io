@@ -16,15 +16,13 @@ url                      : https://wisdomobinna.github.io # the base hostname & 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "wisdomobinna/wisdomobinna.github.io"
 
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
+# Site Author
 author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Wisdom Obinna"
   pronouns         : # example: "she/her"  
-  bio              : "Computer Science Ph.D. \n Digital Security, Trust, and Safety"
+  bio              : "Computer Science  \n Ph.D.  \n Digital Security, Trust, and Safety"
   location         : "Washington, DC"
   employer         : "Georgetown University"
   URI              : #
