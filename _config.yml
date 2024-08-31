@@ -46,8 +46,8 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
-  facebook         : # Username
+  bluesky          : # Replace this with you Bluesky username
+  facebook         : # "wisdomob"
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
@@ -55,20 +55,20 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "https://www.linkedin.com/in/wisdom-obinna/"
   mastodon         : # URL
-  medium           : # URL
+  medium           : "@wisdom_obinna"
   pinterest        : # Username
   soundcloud       : # Username
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
+  twitter          : "wisdomKobinna"
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : # Username
+  youtube          : "Wisdomobinna"
   zhihu            : # URL
 
 # Publication Category - The following the list of publication categories and their headings
