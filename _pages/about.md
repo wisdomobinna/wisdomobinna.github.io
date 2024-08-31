@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Computer Science Ph.D. Student at Georgetown University. I am supported by the [Fritz Research Fellowship](https://techandsociety.georgetown.edu/projects/fritz-family-fellows-program/) and the Graduate Merit Scholarship Award. I am broadly interested in Computer security, human-computer interaction, and privacy. I'm currently working on better understanding and developing tools to mitigate the various security and digital safety threats that emerge when people interact with algorithmic systems, issues like misinformation, abuse, and harassment. I completed a Masters' degree at the University of Sheffield School of Information with the [Allan and Nesta Ferguson Scholarship](https://www.sheffield.ac.uk/international/fees-and-funding/scholarships/postgraduate/ferguson) where I also served as a research Fellow. I completed my undergraduate degree in Computer Science at the University of Port Harcourt.
+I'm a Computer Science Ph.D. Student at Georgetown University. I am supported by the [Fritz Research Fellowship](https://techandsociety.georgetown.edu/projects/fritz-family-fellows-program/) and the Graduate Merit Scholarship Award. I am broadly interested in Computer security, human-computer interaction, and privacy. I'm currently working on better understanding and developing tools to mitigate the various security and digital safety threats that emerge when people interact with algorithmic systems, issues like misinformation, abuse, and harassment. Previously, I completed a Masters' degree at the University of Sheffield with the [Allan and Nesta Ferguson Scholarship](https://www.sheffield.ac.uk/international/fees-and-funding/scholarships/postgraduate/ferguson). I completed my undergraduate degree in Computer Science at the University of Port Harcourt.
 
 [Download Academic CV](https://drive.google.com/file/d/1BZ97fQaTAqNLp8YUHXfC4tKxV0l9kieQ/view?usp=drive_link)
 
@@ -17,6 +17,7 @@ Updates
 ======
 *  Will be working with the [Technology and Society Initiative](https://techandsociety.georgetown.edu/) and the [Massive Data Institute](https://mdi.georgetown.edu/) as a Fritz Research Fellow.
 *  Started a Computer Science PhD at Georgetown University working with [Dr. Elissa Redmiles](https://elissaredmiles.com/).
-*  Accepted a position working with the National Health Service in Barnsley, April 2024
-*  Teaching Python for Data Science at the All African Post-graduate Research Society (Jan - July 2024)
+*  Accepted a position working with the National Health Service in Barnsley, April 2024.
+*  Teaching Python for Data Science at the All African Post-graduate Research Society (Jan - July 2024).
+*  Accepted to join the Media and Journalism School as a Research Assistant with [Tianhao Yuan](https://www.linkedin.com/in/tianhao-yuan-460774283/) and [Dr. Bina Ogbebor](https://www.sheffield.ac.uk/journalism/people/academic/bina-ogbebor).
 *  Completed MA in Global Journalism at the University of Sheffield, Sept. 2023
