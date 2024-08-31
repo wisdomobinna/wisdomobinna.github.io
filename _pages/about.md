@@ -11,7 +11,7 @@ I'm a Computer Science Ph.D. Student at Georgetown University researching in the
 
 [Download Full Academic CV](https://drive.google.com/file/d/1BZ97fQaTAqNLp8YUHXfC4tKxV0l9kieQ/view?usp=drive_link)
 
-Outside of research, I have served on the United Nation's COVID-19 research project in Africa, provided software solutions at the British National Health Service, and spent three years working in data-centric roles within different media organizations. For fun, I read books, listen to the news with some music, and play football. (quietly learning Mandarin also).
+Outside of research, I have served on the United Nation's COVID-19 research project in Africa, provided software solutions at the British National Health Service, and spent three years working in data-centric roles within different media organizations. For fun, I read books, listen to the news with some music, and play soccer. (quietly learning Mandarin also).
 
 Updates
 ======
