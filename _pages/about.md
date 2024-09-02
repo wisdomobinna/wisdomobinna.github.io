@@ -18,6 +18,6 @@ Updates
 *  Will be working with the [Technology and Society Initiative](https://techandsociety.georgetown.edu/) and the [Massive Data Institute](https://mdi.georgetown.edu/) as a Fritz Research Fellow.
 *  Started a Computer Science PhD at Georgetown University working with [Dr. Elissa Redmiles](https://elissaredmiles.com/).
 *  Accepted a position working with the National Health Service in Barnsley, April 2024.
-*  Teaching Python for Data Science at the All African Post-graduate Research Society (Jan - July 2024).
+*  Teaching Python for Data Science at the All African Post-graduate Research Society (Mar - July 2024).
 *  Accepted to join the Media and Journalism School as a Research Assistant with [Tianhao Yuan](https://www.linkedin.com/in/tianhao-yuan-460774283/) and [Dr. Bina Ogbebor](https://www.sheffield.ac.uk/journalism/people/academic/bina-ogbebor).
 *  Completed MA in Global Journalism at the University of Sheffield, Sept. 2023
