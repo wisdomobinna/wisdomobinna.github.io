@@ -1,5 +1,5 @@
 ---
-title: "Self Censorship within the Newsroom: Investigating the safety-decision making choices of Editors in Post-Conflict Contexts (under-review)"
+title: "Self Censorship within the Newsroom: Investigating the safety-decision making practices of Editors in Post-Conflict Contexts (under-review)"
 collection: publication
 category: manuscripts
 permalink: /publication/censorship.md
