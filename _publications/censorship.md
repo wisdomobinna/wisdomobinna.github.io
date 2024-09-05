@@ -3,7 +3,7 @@ title: "Self Censorship within the Newsroom: Investigating the safety-decision m
 collection: publication
 category: manuscripts
 permalink: /publication/censorship.md
-excerpt: 'In this work, we uncover 13 adaptive self-censorship strategies adopted by Newsrooms in response to escalating government interference and regulatory pressures in post-conflict contexts.'
+excerpt: 'In this work, we focus on the online security of journalists, we uncover 13 adaptive self-censorship strategies adopted by Newsrooms in response to escalating government interference and regulatory pressures in post-conflict contexts.'
 date: 2024-02-06
 paperurl: #
 citation: #
