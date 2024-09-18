@@ -7,11 +7,12 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Computer Science Ph.D. Student at Georgetown University researching in the [CS Security Lab](https://seclab.cs.georgetown.edu/). I am supported by the [Fritz Research Fellowship](https://techandsociety.georgetown.edu/projects/fritz-family-fellows-program/) and the [Graduate Merit Scholarship Award](https://grad.georgetown.edu/financial-support/merit-based-financial-aid/). My interests are broadly in user security, online safety, responsible AI, and human-computer interaction. My previous experiences applied computational methods such as machine learning and causal inference, and social science methods like qualitative interviews and large-scale surveys in domains like public health, online platforms, public services, and the media. I hold a Masters' degree from the University of Sheffield with the [Allan and Nesta Ferguson Scholarship](https://www.sheffield.ac.uk/international/fees-and-funding/scholarships/postgraduate/ferguson). I completed my undergraduate degree in Computer Science at the University of Port Harcourt.
+I'm a Computer Science Ph.D. Student at Georgetown University researching in the [CS Security Lab](https://seclab.cs.georgetown.edu/). I am supported by the [Fritz Research Fellowship](https://techandsociety.georgetown.edu/projects/fritz-family-fellows-program/) and the [Graduate Merit Scholarship Award](https://grad.georgetown.edu/financial-support/merit-based-financial-aid/). My current project focuses on the perception of AI-generated Art, with a particular focus on issues of authorship, copyright, and ownership. I hold a Masters' degree from the University of Sheffield with the [Allan and Nesta Ferguson Scholarship](https://www.sheffield.ac.uk/international/fees-and-funding/scholarships/postgraduate/ferguson). I completed my undergraduate degree in Computer Science at the University of Port Harcourt.
 
 [Download Academic CV](https://drive.google.com/file/d/1BZ97fQaTAqNLp8YUHXfC4tKxV0l9kieQ/view?usp=drive_link)
 
 Outside of research, I have served on the United Nation's COVID-19 research project in Africa, provided software solutions at the British National Health Service, and spent three years working in data-centric roles within different media organizations. For fun, I read books, and play soccer. (quietly learning Mandarin also).
+
 
 Updates
 ======
