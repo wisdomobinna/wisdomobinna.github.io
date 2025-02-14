@@ -16,6 +16,8 @@ Outside of research, I have served on the United Nation's COVID-19 research proj
 
 Updates
 ======
+* We are having an open to the public AI Art Competition culminating in an [AI Art Exhbition](https://tes.georgetown.edu/announcements/prof-elissa-redmiles-co-organizes-juried-ai-art-competition-with-georgetown-art-computer-science-law/), April 2024
+* Joined the Responsible AI Network (Now part of Georgetown AI association) 2024, see our work on the [2024 US National security memorandum on AI](https://georgetownsecuritystudiesreview.org/2024/11/04/the-2024-national-security-memorandum-on-ai-a-timeline-and-index-of-responsibilities/)
 *  Will be working with the [Technology and Society Initiative](https://techandsociety.georgetown.edu/) and the [Massive Data Institute](https://mdi.georgetown.edu/) as a Fritz Research Fellow.
 *  Started a Computer Science PhD at Georgetown University working with [Dr. Elissa Redmiles](https://elissaredmiles.com/).
 *  Accepted a position working with the National Health Service in Barnsley, April 2024.
