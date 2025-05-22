@@ -11,12 +11,12 @@ I'm a Computer Science Ph.D. Student at Georgetown University advised by Prof. E
 
 Current projects include perception of AI-generated Art(authorship, ownership, and artistic value), DNS security and machine learning, AI/LLM Refusals, and combating AI-generated harms. I hold a Masters' degree from the University of Sheffield with the [Allan and Nesta Ferguson Scholarship](https://www.sheffield.ac.uk/international/fees-and-funding/scholarships/postgraduate/ferguson). I completed my undergraduate degree in Computer Science at the University of Port Harcourt. I'm happy to chat with you about any related ideas. Feel free to reach out for any collaborations!
 
-Outside of research, I have served on the United Nation's COVID-19 research project, provided software solutions at the British National Health Service, and spent three years working in data-centric roles within different media organizations in Africa. For hobbies, this actually has evolved over time, the only constant part is that I read books, and spend the remaining time thinking about what I read.
+Outside of research, I have served on the United Nation's COVID-19 research project, provided software solutions at the British National Health Service, and spent three years working in data-centric roles within different media organizations. For hobbies, this actually has evolved over time, the only constant part is that I read books, and spend the remaining time thinking about what I read.
 
 
 Updates
 ======
-* Presenting my research at the United Nations 63rd Graduate Study Conference in Geneva, Switzerland!
+* Presenting my work at the United Nations 63rd Graduate Study Conference in Geneva, Switzerland!
 * Nominated as a Design and Technology Fellow at the Fellowship of Auschwitz Study for Professional Ethics 2025 in Germany and Poland!
 * Presented our ongoing work on AI and copyright at the Data and Society Workshop, New York, 2025
 * We are having an open-to-the-public AI Art Competition culminating in an [AI Art Exhbition](https://tes.georgetown.edu/announcements/prof-elissa-redmiles-co-organizes-juried-ai-art-competition-with-georgetown-art-computer-science-law/), April 2025
