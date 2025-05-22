@@ -7,16 +7,19 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Computer Science Ph.D. Student at Georgetown University researching in the [CS Security Lab](https://seclab.cs.georgetown.edu/). I am supported by the [Fritz Research Fellowship](https://techandsociety.georgetown.edu/projects/fritz-family-fellows-program/) and the [Graduate Merit Scholarship Award](https://grad.georgetown.edu/financial-support/merit-based-financial-aid/). My current project focuses on the perception of AI-generated Art, with a particular focus on issues of authorship, copyright, and ownership. I hold a Masters' degree from the University of Sheffield with the [Allan and Nesta Ferguson Scholarship](https://www.sheffield.ac.uk/international/fees-and-funding/scholarships/postgraduate/ferguson). I completed my undergraduate degree in Computer Science at the University of Port Harcourt.
+I'm a Computer Science Ph.D. Student at Georgetown University. I'm a member of the [CS Security Lab](https://seclab.cs.georgetown.edu/). My interests are in human-computer interaction, artificial intelligence, and security engineering.  I am supported by the [Fritz Research Fellowship](https://techandsociety.georgetown.edu/projects/fritz-family-fellows-program/) and the [Graduate Merit Scholarship Award](https://grad.georgetown.edu/financial-support/merit-based-financial-aid/). Current projects include perception of AI-generated Art(authorship, ownership, and artistic value), DNS security and machine learning, AI/LLM Refusals, and combating AI-generated harms. I hold a Masters' degree from the University of Sheffield with the [Allan and Nesta Ferguson Scholarship](https://www.sheffield.ac.uk/international/fees-and-funding/scholarships/postgraduate/ferguson). I completed my undergraduate degree in Computer Science at the University of Port Harcourt.
 
 [Download Academic CV](https://drive.google.com/file/d/1LW84wVv-z-_Q6mzgcGNOWCg_t4ejCK3S/view?usp=sharing)
 
-Outside of research, I have served on the United Nation's COVID-19 research project in Africa, provided software solutions at the British National Health Service, and spent three years working in data-centric roles within different media organizations. For fun, I read books, and play soccer. (quietly learning Mandarin also).
+Outside of research, I have served on the United Nation's COVID-19 research project, provided software solutions at the British National Health Service, and spent three years working in data-centric roles within different media organizations in Africa. For hobbies, I read books, and spend the remaining time thinking about what I read!
 
 
 Updates
 ======
-* We are having an open to the public AI Art Competition culminating in an [AI Art Exhbition](https://tes.georgetown.edu/announcements/prof-elissa-redmiles-co-organizes-juried-ai-art-competition-with-georgetown-art-computer-science-law/), April 2024
+* Presenting my research at the United Nations 63rd Graduate Study Conference in Geneva, Switzerland!
+* Nominated as a Design and Technology Fellow at the Fellowship of Auschwitz Study for Professional Ethics 2025 in Germany and Poland!
+* Presented our ongoing work on AI and copyright at the Data and Society Workshop, New York, 2025
+* We are having an open-to-the-public AI Art Competition culminating in an [AI Art Exhbition](https://tes.georgetown.edu/announcements/prof-elissa-redmiles-co-organizes-juried-ai-art-competition-with-georgetown-art-computer-science-law/), April 2025
 * Joined the Responsible AI Network (Now part of Georgetown AI association) 2024, see our work on the [2024 US National security memorandum on AI](https://georgetownsecuritystudiesreview.org/2024/11/04/the-2024-national-security-memorandum-on-ai-a-timeline-and-index-of-responsibilities/)
 *  Will be working with the [Technology and Society Initiative](https://techandsociety.georgetown.edu/) and the [Massive Data Institute](https://mdi.georgetown.edu/) as a Fritz Research Fellow.
 *  Started a Computer Science PhD at Georgetown University working with [Dr. Elissa Redmiles](https://elissaredmiles.com/).
