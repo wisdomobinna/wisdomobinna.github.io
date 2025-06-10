@@ -15,7 +15,7 @@ Outside of research, I have served on the United Nation's COVID-19 research proj
 Updates
 ======
 * Presenting my work at the United Nations 63rd Graduate Study Conference in Geneva, Switzerland!
-* Our Paper Poster on _DNS Resolver Security: Operator Perspectives and Practices_ has been accepted to SOUPS! 2025
+* Our Poster on _DNS Resolver Security: Operator Perspectives and Practices_ has been accepted to SOUPS! 2025
 * Nominated as a Design and Technology Fellow at the Fellowship of Auschwitz Study for Professional Ethics 2025 in Germany and Poland!
 * Presented our ongoing work on AI and copyright at the Data and Society Workshop, New York, 2025
 * We are having an open-to-the-public AI Art Competition culminating in an [AI Art Exhbition](https://tes.georgetown.edu/announcements/prof-elissa-redmiles-co-organizes-juried-ai-art-competition-with-georgetown-art-computer-science-law/), April 2025
