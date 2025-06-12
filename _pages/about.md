@@ -14,7 +14,7 @@ Outside of research, I have served on the United Nation's COVID-19 research proj
 
 Updates
 ======
-* Presenting my work at the United Nations 63rd Graduate Study Conference in Geneva, Switzerland!
+* Presenting my work at the United Nations 63rd Graduate Study Conference in Geneva, Switzerland! July 2025 
 * Our Poster on _DNS Resolver Security: Operator Perspectives and Practices_ has been accepted to SOUPS! 2025
 * Nominated as a Design and Technology Fellow at the Fellowship of Auschwitz Study for Professional Ethics 2025 in Germany and Poland!
 * Presented our ongoing work on AI and copyright at the Data and Society Workshop, New York, 2025
@@ -25,4 +25,3 @@ Updates
 *  Accepted a position working with the National Health Service in Barnsley, April 2024.
 *  Teaching Python for Data Science at the All African Post-graduate Research Society (Mar - July 2024).
 *  Accepted to join the Media and Journalism School as a Research Assistant with [Tianhao Yuan](https://www.linkedin.com/in/tianhao-yuan-460774283/) and [Dr. Bina Ogbebor](https://www.sheffield.ac.uk/journalism/people/academic/bina-ogbebor).
-*  Completed MA in Global Journalism at the University of Sheffield, Sept. 2023
