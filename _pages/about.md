@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Computer Science Ph.D. Student at Georgetown University advised by Prof. Elissa Redmiles. I'm a member of the [CS Security Lab](https://seclab.cs.georgetown.edu/). Outside of research, I have served as a Fellow at the United Nations in Geneva, Switzerland, and contributed to the development of the UN's ODET 2026 report on the emerging technologies of the next decade. I have also served on the United Nations' COVID-19 research project and spent three years working in software engineering and data-centric roles within different media and software development organizations. I hold a Master's degree from the University of Sheffield and a Bachelor's in Computer Science from the University of Port Harcourt. For hobbies, this has evolved over time, the only constant part is that I read books, and spend the remaining time thinking about what I read.
+I'm a Computer Science Ph.D. Student at Georgetown University advised by Prof. Elissa Redmiles. I'm a member of the [CS Security Lab](https://seclab.cs.georgetown.edu/). Outside of research, I recently was at the United Nations in Geneva, Switzerland, and contributed to the development of the UN's ODET 2026 report on the emerging technologies for the next decade. I have also served on the United Nations' COVID-19 research project and spent three years working in software engineering and data-centric roles within different media and software organizations. I hold a Master's degree from the University of Sheffield and a Bachelor's in Computer Science from the University of Port Harcourt. For hobbies, this has evolved over time, the only constant part is that I read books, and spend the remaining time thinking about what I read.
 
 
 Updates
