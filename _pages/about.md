@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hello! My name is Wisdom"
+title: "Hello!"
 author_profile: true
 redirect_from: 
   - /about/
