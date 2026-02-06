@@ -1,0 +1,65 @@
+:root {
+  /* Colors */
+  --color-primary: #b22222;
+  --color-background: #eeeeee;
+  --color-body: #fff;
+  --color-text: #222831;
+  --color-gray: #7a8288;
+  --color-dark-gray: #494e52;
+  --color-darker-gray: #313439;
+  --color-light-gray: #bcc0c4;
+  --color-lighter-gray: #f0f1f2;
+  --color-border: var(--color-lighter-gray);
+  --color-code-bg: #fafafa;
+
+  --color-link: #52adc8;
+  --color-link-hover: #3d8296;
+  --color-link-visited: #89c8da;
+  --color-masthead-link: #b22222;
+  --color-masthead-link-hover: #861919;
+
+  --color-success: #62c462;
+  --color-warning: #f89406;
+  --color-danger: #ee5f5b;
+  --color-info: #52adc8;
+
+  /* Social brand colors */
+  --color-github: #171516;
+  --color-linkedin: #007bb6;
+  --color-twitter: #55acee;
+  --color-orcid: #a6ce39;
+
+  /* Typography */
+  --font-sans: -apple-system, '.SFNSText-Regular', 'San Francisco', 'Roboto',
+    'Segoe UI', 'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
+  --font-serif: Georgia, Times, serif;
+  --font-mono: Monaco, Consolas, 'Lucida Console', monospace;
+
+  --font-size-base: 16px;
+  --type-size-1: 2.441em;
+  --type-size-2: 1.953em;
+  --type-size-3: 1.563em;
+  --type-size-4: 1.25em;
+  --type-size-5: 1em;
+  --type-size-6: 0.75em;
+  --type-size-7: 0.6875em;
+  --type-size-8: 0.625em;
+
+  --line-height-body: 1.5;
+  --line-height-heading: 1.2;
+
+  /* Breakpoints (for reference, used in media queries) */
+  --bp-small: 600px;
+  --bp-medium: 768px;
+  --bp-medium-wide: 900px;
+  --bp-large: 925px;
+  --bp-xlarge: 1280px;
+  --bp-sidebar: 1024px;
+
+  /* Layout */
+  --masthead-height: 70px;
+  --sidebar-width: 250px;
+  --border-radius: 4px;
+  --box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125);
+  --transition: all 0.2s ease-in-out;
+}
