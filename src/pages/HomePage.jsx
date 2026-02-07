@@ -23,21 +23,18 @@ export default function HomePage() {
           >
             CS Security Lab
           </a>
-          My research is at the intersection of algorithmic systems and creative 
-          work. I study how intelligent systems like AI can support and complement human creativity rather 
-          than replace it. I examine the gaps in understanding between how creators 
-          conceptualize their process, how audiences perceive AI-generated work and use this knowledge
+        <p> 
+          I examine how algorithmic systems shape decision-making,
+          creative production, and content governance, focusing on the frictions that 
+          emerge when algorithmic mediation meets creative work, the misalignments between 
+          designers' intentions and users' experiences, and how technical interventions 
+          succeed or fail at preventing downstream harms. More broadly, I study how intelligent systems 
+          like AI can support and complement creatives rather 
+          than replace them. I examine the gaps in understanding between how creators 
+          conceptualize their process, how audiences perceive AI-involved work and use this knowledge
           to build systems that support and complement human creativity.
         </p>
 
-        <p> 
-          More broadly, I examine how algorithmic systems shape decision-making,
-          creative production, and content governance—focusing on the frictions that 
-          emerge when algorithmic mediation meets human work, the misalignments between 
-          designers' intentions and users' experiences, and how technical interventions 
-          succeed or fail at preventing downstream harms.
-        </p>
-        
         <p>I have served in Geneva, Switzerland as a Graduate Fellow, where I contributed to the development of the UN's 
           ODET UNGSP 2026 report on emerging technologies. I was also a Design and Technology Fellow at FASPE in Germany and Poland. 
           Before graduate school, I was part of the communications team at the UK National Health Service. 
