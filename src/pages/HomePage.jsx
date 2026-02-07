@@ -23,6 +23,7 @@ export default function HomePage() {
           >
             CS Security Lab
           </a>
+          </p>
         <p> 
           I examine how algorithmic systems shape decision-making,
           creative production, and content governance, focusing on the frictions that 
