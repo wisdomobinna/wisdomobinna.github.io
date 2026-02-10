@@ -26,11 +26,11 @@ export default function HomePage() {
           </p>
 
           <p> 
-          I study the gap between how generative AI systems are designed to function 
-          and how people actually experience them — especially when those systems mediate 
-          creative work or make consequential content decisions. 
-          My research focuses on moments of friction: when artists question authorship 
-          in AI-assisted creation, when language models refuse identical requests differently 
+          I study the gap between how AI systems are designed to function 
+          and how people actually experience them — especially when those systems 
+          are embedded in creative workflows or make consequential content decisions. 
+          My research focuses on moments of friction: when creatives question creative and economic value 
+          in AI-involved creation, when vison language models refuse identical requests differently 
           across geopolitical contexts, or when safety mechanisms behave 
           in ways their designers did not anticipate.
           
