@@ -26,22 +26,27 @@ export default function HomePage() {
           </p>
 
           <p> 
-          I examine how algorithmic systems shape decision-making, creative production, 
-          and content governance, focusing on the frictions that emerge when algorithmic 
-          mediation meets creative work, the misalignments between designer intentions 
-          and user experiences, and how technical interventions succeed or 
-          fail at preventing downstream harms. More broadly, I study how intelligent systems 
-          like AI can support and complement creative(human) workers rather than replace them. 
-          I examine the gaps in understanding between how creators conceptualize their process, 
-          how audiences perceive AI-involved work and how vision language models are designed.
-          Through these empirical investigations, I design interventions that support human-AI collaboration. 
+          I study the gap between how generative AI systems are designed to function 
+          and how people actually experience them — especially when those systems mediate 
+          creative work or make consequential content decisions. 
+          My research focuses on moments of friction: when artists question authorship 
+          in AI-assisted creation, when language models refuse identical requests differently 
+          across geopolitical contexts, or when safety mechanisms behave 
+          in ways their designers did not anticipate.
+          
+          Through controlled experiments, interviews, and empirical evaluations of 
+          generative model behavior, I surface these misalignments and design transparency, 
+          governance, and safety interventions that reflect how people actually work, 
+          create, and communicate. My work aims to make generative AI systems more legible, 
+          accountable, and aligned with the humans they serve.
           </p>
 
-        <p>I have served in Geneva, Switzerland as a Graduate Fellow, where I contributed to the development of the UN's 
-          ODET UNGSP 2026 report on emerging technologies. I was also a Design and Technology Fellow at FASPE in Germany and Poland. 
-          Before graduate school, I was part of the communications team at the UK National Health Service. 
+        {/* <p>In the past, I have contributed to the development of the UN's 
+          ODET UNGSP 2025 report on emerging technologies. I was also a Design and Technology Fellow at FASPE in 
+          Germany and Poland. Before graduate school, I was part of the communications team at the 
+          UK National Health Service. 
           In the past, I have been a software engineer, a visual journalist, and a Designer.
-        </p>
+        </p> */}
 
         <h2>Updates</h2>
 
