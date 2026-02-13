@@ -68,25 +68,25 @@ export default function HomePage() {
         {expandedYears[2025] && (
           <ul>
             <li>
-              Our Georgetown AI-involved Art featured at  
+              Our Georgetown AI-involved Art just got featured at  
               <a
                 href="https://cs.georgetown.edu/news-story/ai-in-art-at-2025-techprom/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                The Center for Democracy and
-              Technology, Washington DC
+              Technology, Washington DC!
               </a>
             </li>
             <li>
-              I was amongst 41 graduate fellows to take part in the United Nations 63rd Graduate Study 
+              I was amongst 41 graduate fellows to take part in the United Nations Graduate Study 
               Fellowship program in Geneva, Switzerland
               <a
                 href="https://www.ungeneva.org/sites/default/files/2025-07/2025%20GSP%20Report.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               > 
-               (see our report on the global governance of emerging technologies)</a>
+               (I contributed to the report on global governance of emerging technologies)</a>
             </li>
             <li>Our poster on operator decision making practices in DNS Resolver Security accepted to SOUPS</li>
             <li>

@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { siteConfig } from '../../data/siteConfig';
 import { mainNav } from '../../data/navigation';
 
 export default function Masthead() {
@@ -10,7 +9,7 @@ export default function Masthead() {
     <header className="masthead">
       <div className="masthead__inner">
         <div className="masthead__title">
-          <Link to="/">{siteConfig.title}</Link>
+          <Link to="/">&nbsp;</Link>
         </div>
         <button
           className="masthead__toggle"

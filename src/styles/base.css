@@ -264,6 +264,18 @@ strong {
   max-width: 100%;
 }
 
+.page-content a {
+  color: var(--color-primary);
+}
+
+.page-content a:hover {
+  color: var(--color-masthead-link-hover);
+}
+
+.page-content a:visited {
+  color: var(--color-primary);
+}
+
 /* Author profile */
 .author-profile {
   text-align: center;
