@@ -44,7 +44,7 @@ export default function HomePage() {
           <p>
           My research interests are broadly in AI security and human-AI collaboration. 
           I design and evaluate systems and safety mechanisms using 
-          computational methods, system prototyping, qualitative and quantitative methods to 
+          computational, economic and social science methods to 
           understand and bridge the gap between how AI models are designed to 
           function and how people actually experience them.
           </p>
