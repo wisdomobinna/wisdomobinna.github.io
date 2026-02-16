@@ -89,7 +89,7 @@ export default function HomePage() {
               > 
                (I contributed to the report on global governance of emerging technologies)</a>
             </li>
-            <li>Our poster on operator decision making practices in DNS Resolver Security accepted to SOUPS</li>
+            
             <li>
               I was among 12 Design and Technology Fellows at the Fellowships at Auschwitz for the Study of Professional Ethics in Germany &amp; Poland
             </li>
