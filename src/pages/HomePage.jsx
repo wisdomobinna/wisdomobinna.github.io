@@ -42,11 +42,13 @@ export default function HomePage() {
           in ways their designers did not anticipate.
            </p> */}
           <p>
-          My research interests are broadly in AI security and human-AI collaboration. 
-          I design and evaluate systems and safety mechanisms using 
-          computational, economic and social science methods to 
-          understand and bridge the gap between how AI models are designed to 
-          function and how people actually experience them.
+          My research interests are broadly in safety and security. 
+          My current research investigates model refusal behavior,  
+          methods for evaluating models for harmful content.
+          ownership and economic impacts of AI-generated content.
+          I use computational, economic and social science methods to
+          understand and bridge the gap between how AI models are designed 
+          to function and how people actually experience them.
           </p>
 
         {/* <p>In the past, I have contributed to the development of the UN's 
