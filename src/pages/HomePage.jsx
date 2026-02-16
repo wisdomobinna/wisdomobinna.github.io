@@ -42,13 +42,14 @@ export default function HomePage() {
           in ways their designers did not anticipate.
            </p> */}
           <p>
-          My research interests are broadly in safety and security. 
-          My current research investigates model refusal behavior,  
-          methods for evaluating models for harmful content and 
-          perceptions of creative and economic value of AI-generated content.
-          I use computational, economic and social science methods to
-          understand and bridge the gap between how AI models are designed 
-          to function and how people actually experience them.
+          My research interests are broadly in safety, security, and privacy. 
+          My current research investigates (1)model refusal behavior, 
+          (2)evaluation of models for harmful content, and 
+          (3)perceptions of creative and economic value of AI-generated content.
+          I use computational, economic and social science methods to identify 
+          moments of friction between AI system design and lived experience, 
+          working with affected communities to design interventions that improve 
+          robustness, transparency, and alignment.
           </p>
 
         {/* <p>In the past, I have contributed to the development of the UN's 
