@@ -44,8 +44,8 @@ export default function HomePage() {
           <p>
           My research interests are broadly in safety and security. 
           My current research investigates model refusal behavior,  
-          methods for evaluating models for harmful content.
-          ownership and economic impacts of AI-generated content.
+          methods for evaluating models for harmful content and 
+          perceptions of ownership and economic value of AI-generated content.
           I use computational, economic and social science methods to
           understand and bridge the gap between how AI models are designed 
           to function and how people actually experience them.
