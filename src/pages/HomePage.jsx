@@ -30,6 +30,7 @@ export default function HomePage() {
           >
             CS Security Lab.
           </a>
+          My research interests are broadly in safety, security, and privacy.
           </p>
 
           {/* <p> 
@@ -41,20 +42,6 @@ export default function HomePage() {
           across geopolitical contexts, or when safety mechanisms behave 
           in ways their designers did not anticipate.
            </p> */}
-          <p>
-          My research interests are broadly in safety, security, and privacy. 
-          I use computational, economics, 
-          and data science to surface misalignments between 
-          how AI systems are designed and how they are actually experienced.
-          </p>
-
-        {/* <p>In the past, I have contributed to the development of the UN's 
-          ODET UNGSP 2025 report on emerging technologies. I was also a Design and Technology Fellow at FASPE in 
-          Germany and Poland. Before graduate school, I was part of the communications team at the 
-          UK National Health Service. 
-          In the past, I have been a software engineer, a visual journalist, and a Designer.
-        </p> */}
-
         <h2>Updates</h2>
 
         <h3
