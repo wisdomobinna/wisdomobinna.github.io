@@ -28,9 +28,8 @@ export default function HomePage() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            CS Security Lab.
-          </a>
-          My research interests are broadly in safety, and security.
+            CS Security Lab. 
+          </a> My research interests are broadly in safety, and security.
           </p>
 
           {/* <p> 
