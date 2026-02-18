@@ -29,10 +29,11 @@ export default function HomePage() {
             rel="noopener noreferrer"
           >
             CS Security Lab. 
-          </a> My research interests are broadly in safety and security.
+          </a> 
           </p>
 
           <p>
+          My research interests are broadly in safety and security.
           My current research uses  computational, economic, and qualitative methods 
           to (1) examine how artificial intelligence is reshaping authorship, 
           creativity, and economic value (2) investigate AI-involved content and user safety and
