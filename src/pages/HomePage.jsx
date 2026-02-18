@@ -34,7 +34,7 @@ export default function HomePage() {
 
           <p>
           My research interests are broadly in safety and security.
-          My current research uses  computational, economic, and qualitative methods 
+          My current research uses  computational, economic, and social science methods 
           to (1) examine how artificial intelligence is reshaping authorship, 
           creativity, and economic value (2) investigate AI-involved content and user safety and
           (3) design and evaluate safety mechanisms for these outcomes.
