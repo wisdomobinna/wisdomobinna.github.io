@@ -34,7 +34,7 @@ export default function HomePage() {
 
           <p>
             My research interests are broadly in AI safety, security, and sociotechnical systems.
-            I use computational and social science methods to examine how AI reshapes creative work and 
+            I use computational and data science methods to examine how AI reshapes creative work and 
             economic value, investigate safety risks in AI-involved contents, and design mechanisms 
             to mitigate harms from AI systems and interactions.
           </p>
