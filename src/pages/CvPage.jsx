@@ -88,9 +88,8 @@ export default function CvPage() {
         <h2>Publications and Presentations</h2>
         <ul>
           <li>
-            <strong>Wisdom K.O. (2023)</strong>. Self-censorship within the
-            Newsroom: Technological practices in the aftermath of a crisis.{' '}
-            <em>Journal of New Media and Society</em> (manuscript under review).
+            <strong>Obinna W., Wang J., Lima G., Garcia K., Girgic Hlaca N., Sangastiano T., Redmiles E.</strong>. Who Owns AI Art: Evidence from a Juried AI Art Competition.{' '}
+            (Under Review).
           </li>
           <li>
             <strong>Wisdom K.O., Siyu Ming (2023)</strong>. User-generated

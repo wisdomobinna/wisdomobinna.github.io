@@ -17,13 +17,13 @@ export const publications = [
       'AM Cretu, K Kireev, A Abdalla, W Obinna, R Meier, SA Bargal, et al. "Evaluating Concept Filtering Defenses against Child Sexual Abuse Material Generation by Text-to-Image Models." arXiv preprint arXiv:2512.05707, 2024.',
   },
   {
-    id: 'censorship',
+    id: 'ai-art-ownership',
     title:
-      'Self Censorship within the Newsroom: Investigating the safety-decision making practices of Editors in Post-Conflict Contexts (under-review)',
+      'Who Owns AI Art: Evidence from a Juried AI Art Competition (Under Review)',
     category: 'manuscripts',
-    date: '2024-02-06',
+    date: '2026-02-23',
     excerpt:
-      'In this work, we focus on the online security of journalists, we uncover 13 adaptive self-censorship strategies adopted by Newsrooms in response to escalating government interference and regulatory pressures in post-conflict contexts.',
+      'Wisdom Obinna, Judy Wang, Gabriel Lima, Kristelia Garcia, Nina Girgic Hlaca, Toni-Lee Sangastiano, Elissa Redmiles',
     paperUrl: null,
     citation: null,
   },
