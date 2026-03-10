@@ -33,10 +33,10 @@ export default function HomePage() {
           </p>
 
           <p>
-            My research interests are broadly in AI safety, security, and sociotechnical systems.
+            My research interests are broadly in AI safety, security, and human-AI collaboration.
             I use computational and data science methods to examine how AI reshapes creative work and 
             economic value, investigate safety risks in AI-involved contents, and design mechanisms 
-            to mitigate harms from AI systems and interactions.
+            to mitigate harms from decision-based AI systems and interactions.
           </p>
 
           {/* <p> 
