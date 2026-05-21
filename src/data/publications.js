@@ -5,11 +5,23 @@ export const publicationCategories = [
 
 export const publications = [
   {
+    id: 'dns-resolver',
+    title:
+      'I See DNS People: DNS Resolver Security, Through Operator Perspectives and Practices',
+    category: 'conferences',
+    date: '2026-01-01',
+    excerpt:
+      'Wisdom Obinna, Katharina Barlage, and Florian Alt. To appear at SOUPS 2026.',
+    paperUrl: null,
+    citation:
+      'W Obinna, K Barlage, F Alt. "I See DNS People: DNS Resolver Security, Through Operator Perspectives and Practices." To appear at SOUPS 2026.',
+  },
+  {
     id: 'csam-filtering',
     title:
       'Evaluating Concept Filtering Defenses against Child Sexual Abuse Material Generation by Text-to-Image Models',
     category: 'conferences',
-    date: '2024-12-09',
+    date: '2025-12-09',
     excerpt:
       'We evaluate concept filtering defenses designed to prevent text-to-image models from generating child sexual abuse material (CSAM).',
     paperUrl: 'https://arxiv.org/abs/2512.05707',
@@ -17,13 +29,13 @@ export const publications = [
       'AM Cretu, K Kireev, A Abdalla, W Obinna, R Meier, SA Bargal, et al. "Evaluating Concept Filtering Defenses against Child Sexual Abuse Material Generation by Text-to-Image Models." arXiv preprint arXiv:2512.05707, 2024.',
   },
   {
-    id: 'ai-art-ownership',
+    id: 'ai-art-value',
     title:
-      'Who Owns AI Art: Evidence from a Juried AI Art Competition (Under Review)',
-    category: 'manuscripts',
+      'What is the value of AI art: Evidence from a juried art exhibition',
+    category: 'conferences',
     date: '2026-02-23',
     excerpt:
-      'Wisdom Obinna, Judy Wang, Gabriel Lima, Kristelia Garcia, Nina Girgic Hlaca, Toni-Lee Sangastiano, Elissa Redmiles',
+      'Wisdom Obinna, Judy Wang, Gabriel Lima, Kristelia Garcia, Nina Girgic Hlaca, Toni-Lee Sangastiano, Elissa Redmiles. ACM Creativity and Cognition.',
     paperUrl: null,
     citation: null,
   },
@@ -38,6 +50,6 @@ export const publications = [
     paperUrl:
       'https://drive.google.com/file/d/1J9UXtta8jEiagjP8W7I_LUH9DXepDtkU/view?usp=sharing',
     citation:
-      'Obinna, Wisdom Kelechi, and Mfoniso James Udo. "Improving online real estate management system using data analytics; Journal of Emerging Technologies',
+      'WK Obinna, MJ Udo. "Improving online real estate management system using data analytics." Journal of Emerging Technologies 2 (2), 66-75, 2022.',
   },
 ];

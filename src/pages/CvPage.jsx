@@ -88,8 +88,16 @@ export default function CvPage() {
         <h2>Publications and Presentations</h2>
         <ul>
           <li>
-            <strong>Obinna W., Wang J., Lima G., Garcia K., Girgic Hlaca N., Sangastiano T., Redmiles E.</strong>. Who Owns AI Art: Evidence from a Juried AI Art Competition.{' '}
-            (Under Review).
+            <strong>Obinna W., Barlage K., Alt F.</strong>. I See DNS People: DNS Resolver Security, Through Operator Perspectives and Practices.{' '}
+            <em>To appear at SOUPS 2026.</em>
+          </li>
+          <li>
+            <strong>Cretu A.M., Kireev K., Abdalla A., Obinna W., Meier R., Bargal S.A., et al.</strong>. Evaluating Concept Filtering Defenses against Child Sexual Abuse Material Generation by Text-to-Image Models.{' '}
+            <em>arXiv preprint arXiv:2512.05707, 2025.</em>
+          </li>
+          <li>
+            <strong>Obinna W., Wang J., Lima G., Garcia K., Girgic Hlaca N., Sangastiano T., Redmiles E.</strong>. What is the value of AI art: Evidence from a juried art exhibition.{' '}
+            <em>ACM Creativity and Cognition.</em>
           </li>
           <li>
             <strong>Wisdom K.O., Siyu Ming (2023)</strong>. User-generated

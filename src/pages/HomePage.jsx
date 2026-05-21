@@ -33,21 +33,12 @@ export default function HomePage() {
           </p>
 
           <p>
-            My research interests are broadly in safety, security, and human-AI collaboration.
-            I use computational and data science methods to examine how AI reshapes creative work and 
-            economic value, investigate safety risks in AI-involved contents, and design mechanisms 
-            to mitigate harms from AI systems and interactions.
+            My work is centered on the safety and security of intelligent systems. I care about how
+            these technologies are built, how it impacts society, and how we can build better systems
+            that are more useful and safe. In the past, I have been invited to the United Nations and
+            several other multinational and regional organisations to discuss the impacts of technology
+            on society and implement solutions to make people safe online and at work.
           </p>
-
-          {/* <p> 
-          I study the gap between how AI systems are designed to function 
-          and how people actually experience them — especially when those systems 
-          are embedded in creative workflows or make consequential content decisions. 
-          My research focuses on moments of friction: when creatives question creative and economic value 
-          in AI-involved creation, when vison language models refuse identical requests differently 
-          across geopolitical contexts, or when safety mechanisms behave 
-          in ways their designers did not anticipate.
-           </p> */}
         <h2>Updates</h2>
 
         <h3
