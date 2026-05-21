@@ -2,7 +2,7 @@ import { useState } from 'react';
 import PageLayout from '../components/layout/PageLayout';
 
 export default function HomePage() {
-  const [expandedYears, setExpandedYears] = useState({ 2025: true });
+  const [expandedYears, setExpandedYears] = useState({ 2026: true, 2025: true });
 
   const toggleYear = (year) => {
     setExpandedYears((prev) => ({ ...prev, [year]: !prev[year] }));
@@ -40,6 +40,38 @@ export default function HomePage() {
             on society and implement solutions to make people safe online and at work.
           </p>
         <h2>Updates</h2>
+
+        <h3
+          className="year-toggle"
+          onClick={() => toggleYear(2026)}
+          style={{ cursor: 'pointer', userSelect: 'none' }}
+        >
+          {expandedYears[2026] ? '▾' : '▸'} 2026
+        </h3>
+        {expandedYears[2026] && (
+          <ul>
+            <li>
+              How about a Google for GenAI platforms? I'm building{' '}
+              <a
+                href="https://cefini.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Cefini.com
+              </a>
+            </li>
+            <li>
+              How about the use of AI models in the Global South? I'm working with two amazing folks to build{' '}
+              <a
+                href="https://humuslabs.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Humus Labs
+              </a>
+            </li>
+          </ul>
+        )}
 
         <h3
           className="year-toggle"

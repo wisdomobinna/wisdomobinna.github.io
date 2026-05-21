@@ -11,10 +11,10 @@ export const publications = [
     category: 'conferences',
     date: '2026-01-01',
     excerpt:
-      'Wisdom Obinna, Katharina Barlage, and Florian Alt. To appear at SOUPS 2026.',
+      'Wisdom Obinna, Katharina Barlage, and Florian Alt. Published at SOUPS 2026.',
     paperUrl: null,
     citation:
-      'W Obinna, K Barlage, F Alt. "I See DNS People: DNS Resolver Security, Through Operator Perspectives and Practices." To appear at SOUPS 2026.',
+      'W Obinna, K Barlage, F Alt. "I See DNS People: DNS Resolver Security, Through Operator Perspectives and Practices." In Proceedings of the Symposium on Usable Privacy and Security (SOUPS), 2026.',
   },
   {
     id: 'csam-filtering',
@@ -26,7 +26,7 @@ export const publications = [
       'We evaluate concept filtering defenses designed to prevent text-to-image models from generating child sexual abuse material (CSAM).',
     paperUrl: 'https://arxiv.org/abs/2512.05707',
     citation:
-      'AM Cretu, K Kireev, A Abdalla, W Obinna, R Meier, SA Bargal, et al. "Evaluating Concept Filtering Defenses against Child Sexual Abuse Material Generation by Text-to-Image Models." arXiv preprint arXiv:2512.05707, 2024.',
+      'AM Cretu, K Kireev, A Abdalla, W Obinna, R Meier, SA Bargal, et al. "Evaluating Concept Filtering Defenses against Child Sexual Abuse Material Generation by Text-to-Image Models." Published at IEEE S&P 2026.',
   },
   {
     id: 'ai-art-value',
