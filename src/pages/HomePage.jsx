@@ -8,36 +8,41 @@ export default function HomePage() {
       <div className="page-content">
         <h2 style={{ marginTop: 0 }}>About Me</h2>
         <p>
-          I&rsquo;m a Computer Science Ph.D. student at Georgetown University,
-          advised by{' '}
+          I am a Computer Science Ph.D. student at Georgetown University, where I work with{' '}
           <a href="https://elissaredmiles.com/" target="_blank" rel="noopener noreferrer">
-            Prof. Elissa Redmiles
+            Professor Elissa Redmiles
           </a>{' '}
-          in the{' '}
-          <a href="https://seclab.cs.georgetown.edu/" target="_blank" rel="noopener noreferrer">
-            CS Security Lab
-          </a>
-          .
+          on topics that intersect safety, security, and artificial intelligence. My research
+          interests are broadly in the security and trustworthiness of online systems. I combine
+          computational and data science methods to tackle these challenges and develop intelligent
+          tools to support these processes.
         </p>
 
         <p>
-          My work is centered on the safety and security of intelligent systems. I care about how
-          these technologies are built, how they impact society, and how we can build better systems
-          that are more useful and safe. In the past, I have been invited to the United Nations and
-          several other multinational and regional organisations to discuss the impacts of technology
-          on society and implement solutions to make people safe online and at work.
+          Before Georgetown, I completed a Master&rsquo;s at the University of Sheffield in the
+          United Kingdom, advised by Ilya Yablokov and Bina Ogbebor. My undergraduate degree was
+          in computer science with a focus on security and trust in online systems. Through my
+          research, I have been invited to the United Nations and several other organizations to
+          design technological solutions for these challenges. Before graduate school, I previously
+          held roles in software engineering and data science across technology, media, and health
+          organizations.
         </p>
 
         <p>
-          When I&rsquo;m not doing research, I write about AI in the Global South at{' '}
+          When I&rsquo;m not doing research, you can find me writing about AI in the Global South
+          at{' '}
           <a href="https://humuslabs.com" target="_blank" rel="noopener noreferrer">
             Humus Labs
-          </a>{' '}
-          and contribute to building{' '}
+          </a>
+          , writing and chatting at{' '}
+          <a href="https://thereadai.com" target="_blank" rel="noopener noreferrer">
+            TheReadAI.com
+          </a>
+          , and volunteering with friends to build a discovery platform for AI tools at{' '}
           <a href="https://cefini.com" target="_blank" rel="noopener noreferrer">
             Cefini.com
           </a>
-          , an AI-powered search engine.
+          .
         </p>
 
         <h2>Publications</h2>
