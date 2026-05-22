@@ -47,7 +47,7 @@ export default function HomePage() {
           if (items.length === 0) return null;
           return (
             <section key={cat.key} className="taxonomy-section">
-              <h3 className="taxonomy-section__title">{cat.title}</h3>
+              {cat.showTitle && <h3 className="taxonomy-section__title">{cat.title}</h3>}
               {items.map((pub) => (
                 <ArchiveSingle
                   key={pub.id}

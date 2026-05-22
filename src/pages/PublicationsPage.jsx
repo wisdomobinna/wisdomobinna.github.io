@@ -14,7 +14,7 @@ export default function PublicationsPage() {
         if (items.length === 0) return null;
         return (
           <section key={cat.key} className="taxonomy-section">
-            <h2 className="taxonomy-section__title">{cat.title}</h2>
+            {cat.showTitle && <h2 className="taxonomy-section__title">{cat.title}</h2>}
             {items.map((pub) => (
               <ArchiveSingle
                 key={pub.id}

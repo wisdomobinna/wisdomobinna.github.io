@@ -1,6 +1,6 @@
 export const publicationCategories = [
-  { key: 'conferences', title: 'Conference Papers' },
-  { key: 'manuscripts', title: 'Journal Articles' },
+  { key: 'conferences', title: 'Conference Papers', showTitle: false },
+  { key: 'manuscripts', title: 'Journal Articles', showTitle: true },
 ];
 
 export const publications = [
@@ -12,7 +12,7 @@ export const publications = [
     date: '2026-01-01',
     authors: 'W. Obinna, K. Barlage, and F. Alt',
     authorSelf: 'W. Obinna',
-    venue: 'SOUPS 2026',
+    venue: 'Symposium On Usable Privacy and Security 2026',
     links: {},
   },
   {
@@ -24,7 +24,7 @@ export const publications = [
     authors:
       'A.M. Cretu, K. Kireev, A. Abdalla, W. Obinna, R. Meier, S.A. Bargal, et al.',
     authorSelf: 'W. Obinna',
-    venue: 'IEEE S&P 2026',
+    venue: 'IEEE Symposium on Security and Privacy 2026',
     links: { paper: 'https://arxiv.org/abs/2512.05707' },
   },
   {
@@ -35,7 +35,7 @@ export const publications = [
     authors:
       'W. Obinna, J. Wang, G. Lima, K. Garcia, N. Girgic Hlaca, T. Sangastiano, and E. Redmiles',
     authorSelf: 'W. Obinna',
-    venue: 'ACM Creativity and Cognition',
+    venue: 'ACM Conference on Creativity & Cognition 2026',
     links: {},
     aiArtLink:
       'https://tes.georgetown.edu/announcements/prof-elissa-redmiles-co-organizes-juried-ai-art-competition-with-georgetown-art-computer-science-law/',

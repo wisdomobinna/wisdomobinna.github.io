@@ -31,8 +31,7 @@ export default function AuthorProfile() {
           <strong>Email</strong>: wko7[at]georgetown.edu
         </p>
         <p className="author-profile__meta">
-          <strong>Research Interests</strong>: AI Safety, Security of Intelligent Systems,
-          Technology &amp; Society
+          <strong>Research Interests</strong>: Safety and Security
         </p>
       </div>
     </div>
