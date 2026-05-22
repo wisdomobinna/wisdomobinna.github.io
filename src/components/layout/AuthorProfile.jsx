@@ -1,15 +1,20 @@
+import { Link } from 'react-router-dom';
 import { author } from '../../data/siteConfig';
 
 export default function AuthorProfile() {
   return (
     <div className="author-profile">
-      <img
-        className="author-profile__avatar"
-        src={author.avatar}
-        alt={author.name}
-      />
+      <Link to="/">
+        <img
+          className="author-profile__avatar"
+          src={author.avatar}
+          alt={author.name}
+        />
+      </Link>
       <div>
-        <h3 className="author-profile__name">{author.name}</h3>
+        <h3 className="author-profile__name">
+          <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>{author.name}</Link>
+        </h3>
         <p
           className="author-profile__bio"
           dangerouslySetInnerHTML={{ __html: author.bio }}
