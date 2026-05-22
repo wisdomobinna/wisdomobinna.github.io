@@ -1,54 +1,68 @@
 import PageLayout from '../components/layout/PageLayout';
 import ArchiveSingle from '../components/shared/ArchiveSingle';
 import { publications, publicationCategories } from '../data/publications';
+import { author } from '../data/siteConfig';
 
 export default function HomePage() {
   return (
     <PageLayout title="About me">
-      <h1 className="page-title">About me</h1>
       <div className="page-content">
-        <p>
-          I'm a Computer Science Ph.D. student at Georgetown University,
-          advised by{' '}
-          <a
-            href="https://elissaredmiles.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+
+        <div className="profile-links-compact">
+          {author.links.map((link) => (
+            <a
+              key={link.url}
+              href={link.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={link.label}
+              title={link.label}
+              className="profile-link-icon"
+            >
+              <i className={link.icon} />
+            </a>
+          ))}
+        </div>
+
+        <p className="profile-position">
+          Computer Science Ph.D. student at Georgetown University, advised by{' '}
+          <a href="https://elissaredmiles.com/" target="_blank" rel="noopener noreferrer">
             Prof. Elissa Redmiles
           </a>{' '}
           in the{' '}
-          <a
-            href="https://seclab.cs.georgetown.edu/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            CS Security Lab.
+          <a href="https://seclab.cs.georgetown.edu/" target="_blank" rel="noopener noreferrer">
+            CS Security Lab
           </a>
+          .
+        </p>
+
+        <p className="profile-meta">
+          <strong>Email</strong>: wko7[at]georgetown.edu
+        </p>
+
+        <p className="profile-meta">
+          <strong>Research Interests</strong>: AI Safety, Security of Intelligent Systems,
+          Technology &amp; Society
         </p>
 
         <p>
           My work is centered on the safety and security of intelligent systems. I care about how
-          these technologies are built, how it impacts society, and how we can build better systems
+          these technologies are built, how they impact society, and how we can build better systems
           that are more useful and safe. In the past, I have been invited to the United Nations and
           several other multinational and regional organisations to discuss the impacts of technology
           on society and implement solutions to make people safe online and at work.
         </p>
 
         <p>
-          Outside of research, I write about AI in the Global South at{' '}
+          When I&rsquo;m not doing research, I write about AI in the Global South at{' '}
           <a href="https://humuslabs.com" target="_blank" rel="noopener noreferrer">
             Humus Labs
-          </a>
-          , and I contribute to building{' '}
+          </a>{' '}
+          and contribute to building{' '}
           <a href="https://cefini.com" target="_blank" rel="noopener noreferrer">
             Cefini.com
           </a>
-          , an AI-powered search engine. I also talk about AI on{' '}
-          <a href="https://www.youtube.com/@cefiniHQ" target="_blank" rel="noopener noreferrer">
-            their YouTube channel
-          </a>{' '}
-          — check them out!
+          , an AI-powered search engine.
         </p>
 
         <h2 className="taxonomy-section__title" style={{ marginTop: '2em' }}>Publications</h2>

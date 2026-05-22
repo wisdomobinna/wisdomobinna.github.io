@@ -21,7 +21,7 @@ export default function ArchiveSingle({
     );
   };
 
-  const hasLinks = links.url || links.pdf || links.poster;
+  const hasLinks = links.paper || links.url || links.pdf || links.poster;
 
   return (
     <article className="archive-single">
@@ -33,6 +33,11 @@ export default function ArchiveSingle({
         {venue}
         {hasLinks && (
           <span className="archive-single__pub-links">
+            {links.paper && (
+              <a href={links.paper} target="_blank" rel="noopener noreferrer">
+                [Paper]
+              </a>
+            )}
             {links.url && (
               <a href={links.url} target="_blank" rel="noopener noreferrer">
                 [URL]

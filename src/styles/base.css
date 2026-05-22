@@ -422,6 +422,36 @@ strong {
   color: var(--color-pub-link) !important;
 }
 
+/* Profile compact icon row (main content) */
+.profile-links-compact {
+  display: flex;
+  gap: 0.6em;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.profile-link-icon {
+  color: var(--color-gray);
+  font-size: 1.15em;
+  line-height: 1;
+}
+
+.profile-link-icon:hover {
+  color: var(--color-text);
+}
+
+.profile-link-icon:visited {
+  color: var(--color-gray);
+}
+
+.profile-position {
+  margin-bottom: 0.5em;
+}
+
+.profile-meta {
+  margin-bottom: 0.5em;
+}
+
 /* Page title */
 .page-title {
   font-size: var(--type-size-3);

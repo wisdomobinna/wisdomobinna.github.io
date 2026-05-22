@@ -25,7 +25,7 @@ export const publications = [
       'A.M. Cretu, K. Kireev, A. Abdalla, W. Obinna, R. Meier, S.A. Bargal, et al.',
     authorSelf: 'W. Obinna',
     venue: 'IEEE S&P 2026',
-    links: { url: 'https://arxiv.org/abs/2512.05707' },
+    links: { paper: 'https://arxiv.org/abs/2512.05707' },
   },
   {
     id: 'ai-art-value',
