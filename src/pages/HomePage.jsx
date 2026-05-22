@@ -12,18 +12,23 @@ export default function HomePage() {
           <a href="https://elissaredmiles.com/" target="_blank" rel="noopener noreferrer">
             Professor Elissa Redmiles
           </a>{' '}
-          on topics that intersect safety, security, and artificial intelligence. My research
+          on topics that intersect safety, and security. My research
           interests are broadly in the security and trustworthiness of online systems. I combine
-          computational and data science methods to tackle these challenges and develop intelligent
-          tools to support these processes.
-        </p>
-
-        <p>
-          Before Georgetown, I completed a Master&rsquo;s at the University of Sheffield in the
-          United Kingdom, advised by Ilya Yablokov and Bina Ogbebor. My undergraduate degree was
-          in computer science with a focus on security and trust in online systems. Through my
-          research, I have been invited to the United Nations and several other organizations to
-          design technological solutions for these challenges. Before graduate school, I previously
+          computational and data science methods to understand these challenges and develop intelligent
+          tools to support these processes. Before Georgetown, I was a Research Assistant at the {' '}
+          <a href="https://www.sheffield.ac.uk/" target="_blank" rel="noopener noreferrer">
+            University of Sheffield
+          </a>{' '}
+          in the
+          United Kingdom, advised by{' '}
+          <a href="https://sheffield.ac.uk/ijc/people/academic-staff/ilya-yablokov" target="_blank" rel="noopener noreferrer">
+            Ilya Yablokov
+          </a>{' '}
+          and{' '}
+          <a href="https://sheffield.ac.uk/ijc/people/academic-staff/bina-ogbebor" target="_blank" rel="noopener noreferrer">
+            Bina Ogbebor
+          </a>. My undergraduate degree was
+          in computer science with a focus on security and trust in online systems. Before graduate school, I previously
           held roles in software engineering and data science across technology, media, and health
           organizations.
         </p>
@@ -35,7 +40,11 @@ export default function HomePage() {
             Humus Labs
           </a>
           , writing and chatting at{' '}
-          <a href="https://thereadai.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.youtube.com/@Thereadai" target="_blank" rel="noopener noreferrer">
+            ReadAI
+          </a>{' '}
+          and
+          {' '}<a href="thereadai.com" target="_blank" rel="noopener noreferrer">
             TheReadAI.com
           </a>
           , and volunteering with friends to build a discovery platform for AI tools at{' '}
