@@ -49,7 +49,7 @@ export default function HomePage() {
           — check them out!
         </p>
 
-        <h2>Updates</h2>
+        {/* <h2>Updates</h2>
 
         <h3>2025</h3>
         <ul>
@@ -142,7 +142,7 @@ export default function HomePage() {
           <li>
             Research Assistant at Media and Journalism School, University of Sheffield
           </li>
-        </ul>
+        </ul> */}
       </div>
     </PageLayout>
   );
