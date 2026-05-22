@@ -3,11 +3,6 @@ import { author } from '../../data/siteConfig';
 export default function AuthorProfile() {
   return (
     <div className="author-profile">
-      <img
-        className="author-profile__avatar"
-        src={author.avatar}
-        alt={author.name}
-      />
       <div className="author-profile__icons">
         {author.links.map((link) => (
           <a

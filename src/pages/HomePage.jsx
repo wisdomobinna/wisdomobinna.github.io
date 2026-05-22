@@ -28,10 +28,6 @@ export default function HomePage() {
         </p>
 
         <p>
-          My research interests include <strong>Safety, Security, and Society</strong>.
-        </p>
-
-        <p>
           When I&rsquo;m not doing research, I write about AI in the Global South at{' '}
           <a href="https://humuslabs.com" target="_blank" rel="noopener noreferrer">
             Humus Labs
@@ -45,7 +41,7 @@ export default function HomePage() {
 
         <h2>Publications</h2>
 
-        {publicationCategories.map((cat) => {
+        {publicationCategories.filter((cat) => cat.key !== 'conferences').map((cat) => {
           const items = publications.filter((p) => p.category === cat.key);
           if (items.length === 0) return null;
           return (
