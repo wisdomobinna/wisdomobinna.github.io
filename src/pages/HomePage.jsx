@@ -6,6 +6,7 @@ export default function HomePage() {
   return (
     <PageLayout title="About me">
       <div className="page-content">
+        <h2 style={{ marginTop: 0 }}>About Me</h2>
         <p>
           I&rsquo;m a Computer Science Ph.D. student at Georgetown University,
           advised by{' '}

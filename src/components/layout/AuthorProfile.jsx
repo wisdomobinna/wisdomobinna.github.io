@@ -3,6 +3,7 @@ import { author } from '../../data/siteConfig';
 export default function AuthorProfile() {
   return (
     <div className="author-profile">
+      <h3 className="author-profile__name" style={{ color: 'var(--color-primary)' }}>{author.name}</h3>
       <div className="author-profile__icons">
         {author.links.map((link) => (
           <a
@@ -19,7 +20,6 @@ export default function AuthorProfile() {
         ))}
       </div>
       <div>
-        <h3 className="author-profile__name">{author.name}</h3>
         <p
           className="author-profile__bio"
           dangerouslySetInnerHTML={{ __html: author.bio }}
