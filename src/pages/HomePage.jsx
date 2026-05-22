@@ -1,31 +1,12 @@
 import PageLayout from '../components/layout/PageLayout';
-import ArchiveSingle from '../components/shared/ArchiveSingle';
-import { publications, publicationCategories } from '../data/publications';
-import { author } from '../data/siteConfig';
 
 export default function HomePage() {
   return (
     <PageLayout title="About me">
       <div className="page-content">
-
-        <div className="profile-links-compact">
-          {author.links.map((link) => (
-            <a
-              key={link.url}
-              href={link.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={link.label}
-              title={link.label}
-              className="profile-link-icon"
-            >
-              <i className={link.icon} />
-            </a>
-          ))}
-        </div>
-
-        <p className="profile-position">
-          Computer Science Ph.D. student at Georgetown University, advised by{' '}
+        <p>
+          I&rsquo;m a Computer Science Ph.D. student at Georgetown University,
+          advised by{' '}
           <a href="https://elissaredmiles.com/" target="_blank" rel="noopener noreferrer">
             Prof. Elissa Redmiles
           </a>{' '}
@@ -34,15 +15,6 @@ export default function HomePage() {
             CS Security Lab
           </a>
           .
-        </p>
-
-        <p className="profile-meta">
-          <strong>Email</strong>: wko7[at]georgetown.edu
-        </p>
-
-        <p className="profile-meta">
-          <strong>Research Interests</strong>: AI Safety, Security of Intelligent Systems,
-          Technology &amp; Society
         </p>
 
         <p>
@@ -65,28 +37,110 @@ export default function HomePage() {
           , an AI-powered search engine.
         </p>
 
-        <h2 className="taxonomy-section__title" style={{ marginTop: '2em' }}>Publications</h2>
+        <h2>Updates</h2>
 
-        {publicationCategories.map((cat) => {
-          const items = publications.filter((p) => p.category === cat.key);
-          if (items.length === 0) return null;
-          return (
-            <section key={cat.key} className="taxonomy-section">
-              <h3 className="taxonomy-section__subtitle">{cat.title}</h3>
-              {items.map((pub) => (
-                <ArchiveSingle
-                  key={pub.id}
-                  title={pub.title}
-                  authors={pub.authors}
-                  authorSelf={pub.authorSelf}
-                  venue={pub.venue}
-                  links={pub.links}
-                  aiArtLink={pub.aiArtLink}
-                />
-              ))}
-            </section>
-          );
-        })}
+        <h3>2025</h3>
+        <ul>
+          <li>
+            Poster accepted at{' '}
+            <a
+              href="https://www.usenix.org/system/files/soups2025_poster23_abstract-obinna.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              USENIX SOUPS 2025
+            </a>
+          </li>
+          <li>
+            Our Georgetown AI-involved Art just got featured at{' '}
+            <a
+              href="https://cs.georgetown.edu/news-story/ai-in-art-at-2025-techprom/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              The Center for Democracy and Technology, Washington DC!
+            </a>
+          </li>
+          <li>
+            I was amongst 41 graduate fellows to take part in the United Nations Graduate Study
+            Fellowship program in Geneva, Switzerland{' '}
+            <a
+              href="https://www.ungeneva.org/sites/default/files/2025-07/2025%20GSP%20Report.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              (I contributed to the report on global governance of emerging technologies)
+            </a>
+          </li>
+          <li>
+            I was among 12 Design and Technology Fellows at the Fellowships at Auschwitz for the
+            Study of Professional Ethics in Germany &amp; Poland
+          </li>
+          <li>
+            I presented our AI art study at the AI and copyright presentation at Data and Society
+            Workshop, New York
+          </li>
+          <li>
+            <a
+              href="https://tes.georgetown.edu/announcements/prof-elissa-redmiles-co-organizes-juried-ai-art-competition-with-georgetown-art-computer-science-law/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              AI Art Competition &amp; Exhibition
+            </a>{' '}
+            (April)
+          </li>
+        </ul>
+
+        <h3>2024</h3>
+        <ul>
+          <li>
+            Joined Responsible AI Network — work on{' '}
+            <a
+              href="https://georgetownsecuritystudiesreview.org/2024/11/04/the-2024-national-security-memorandum-on-ai-a-timeline-and-index-of-responsibilities/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              2024 US National Security Memorandum on AI
+            </a>
+          </li>
+          <li>
+            Fritz Research Fellow at{' '}
+            <a
+              href="https://techandsociety.georgetown.edu/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Technology and Society Initiative
+            </a>{' '}
+            &amp;{' '}
+            <a
+              href="https://mdi.georgetown.edu/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Massive Data Institute
+            </a>
+          </li>
+          <li>
+            Started Computer Science PhD at Georgetown University with{' '}
+            <a
+              href="https://elissaredmiles.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Dr. Elissa Redmiles
+            </a>
+          </li>
+          <li>NHS Barnsley position (April)</li>
+          <li>
+            Teaching Python for Data Science at All-African Post-graduate Research Society
+            (Mar–July)
+          </li>
+          <li>
+            Research Assistant at Media and Journalism School, University of Sheffield
+          </li>
+        </ul>
       </div>
     </PageLayout>
   );
