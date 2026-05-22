@@ -19,10 +19,11 @@ export default function PublicationsPage() {
               <ArchiveSingle
                 key={pub.id}
                 title={pub.title}
-                excerpt={pub.excerpt}
-                date={pub.date}
-                paperUrl={pub.paperUrl}
-                citation={pub.citation}
+                authors={pub.authors}
+                authorSelf={pub.authorSelf}
+                venue={pub.venue}
+                links={pub.links}
+                aiArtLink={pub.aiArtLink}
               />
             ))}
           </section>

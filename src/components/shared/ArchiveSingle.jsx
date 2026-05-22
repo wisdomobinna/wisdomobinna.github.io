@@ -1,36 +1,62 @@
 export default function ArchiveSingle({
   title,
-  excerpt,
-  date,
-  paperUrl,
-  citation,
+  authors,
+  authorSelf,
+  venue,
+  links = {},
+  aiArtLink,
 }) {
-  const formattedDate = date
-    ? new Date(date + 'T00:00:00').toLocaleDateString('en-US', {
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric',
-      })
-    : null;
+  const renderAuthors = () => {
+    if (!authors) return null;
+    if (!authorSelf || !authors.includes(authorSelf)) {
+      return <>{authors}</>;
+    }
+    const idx = authors.indexOf(authorSelf);
+    return (
+      <>
+        {authors.slice(0, idx)}
+        <span className="archive-single__author-self">{authorSelf}</span>
+        {authors.slice(idx + authorSelf.length)}
+      </>
+    );
+  };
+
+  const hasLinks = links.url || links.pdf || links.poster;
 
   return (
     <article className="archive-single">
-      <h2 className="archive-single__title">{title}</h2>
-      {formattedDate && (
-        <p className="archive-single__meta">{formattedDate}</p>
+      <p className="archive-single__title">{title}</p>
+      {authors && (
+        <p className="archive-single__authors">{renderAuthors()}</p>
       )}
-      {excerpt && <p className="archive-single__excerpt">{excerpt}</p>}
-      {citation && (
-        <p className="archive-single__excerpt">
-          <em>{citation}</em>
-        </p>
-      )}
-      {paperUrl && (
-        <div className="archive-single__links">
-          <a href={paperUrl} target="_blank" rel="noopener noreferrer">
-            <i className="fas fa-fw fa-file-pdf" /> Paper
+      <p className="archive-single__venue">
+        {venue}
+        {hasLinks && (
+          <span className="archive-single__pub-links">
+            {links.url && (
+              <a href={links.url} target="_blank" rel="noopener noreferrer">
+                [URL]
+              </a>
+            )}
+            {links.pdf && (
+              <a href={links.pdf} target="_blank" rel="noopener noreferrer">
+                [PDF]
+              </a>
+            )}
+            {links.poster && (
+              <a href={links.poster} target="_blank" rel="noopener noreferrer">
+                [Poster]
+              </a>
+            )}
+          </span>
+        )}
+      </p>
+      {aiArtLink && (
+        <p className="archive-single__ai-art-link">
+          <a href={aiArtLink} target="_blank" rel="noopener noreferrer">
+            Georgetown AI Art Competition &amp; Exhibition
           </a>
-        </div>
+        </p>
       )}
     </article>
   );

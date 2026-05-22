@@ -10,11 +10,10 @@ export const publications = [
       'I See DNS People: DNS Resolver Security, Through Operator Perspectives and Practices',
     category: 'conferences',
     date: '2026-01-01',
-    excerpt:
-      'Wisdom Obinna, Katharina Barlage, and Florian Alt. Published at SOUPS 2026.',
-    paperUrl: null,
-    citation:
-      'W Obinna, K Barlage, F Alt. "I See DNS People: DNS Resolver Security, Through Operator Perspectives and Practices." In Proceedings of the Symposium on Usable Privacy and Security (SOUPS), 2026.',
+    authors: 'W. Obinna, K. Barlage, and F. Alt',
+    authorSelf: 'W. Obinna',
+    venue: 'SOUPS 2026',
+    links: {},
   },
   {
     id: 'csam-filtering',
@@ -22,22 +21,24 @@ export const publications = [
       'Evaluating Concept Filtering Defenses against Child Sexual Abuse Material Generation by Text-to-Image Models',
     category: 'conferences',
     date: '2025-12-09',
-    excerpt:
-      'We evaluate concept filtering defenses designed to prevent text-to-image models from generating child sexual abuse material (CSAM).',
-    paperUrl: 'https://arxiv.org/abs/2512.05707',
-    citation:
-      'AM Cretu, K Kireev, A Abdalla, W Obinna, R Meier, SA Bargal, et al. "Evaluating Concept Filtering Defenses against Child Sexual Abuse Material Generation by Text-to-Image Models." Published at IEEE S&P 2026.',
+    authors:
+      'A.M. Cretu, K. Kireev, A. Abdalla, W. Obinna, R. Meier, S.A. Bargal, et al.',
+    authorSelf: 'W. Obinna',
+    venue: 'IEEE S&P 2026',
+    links: { url: 'https://arxiv.org/abs/2512.05707' },
   },
   {
     id: 'ai-art-value',
-    title:
-      'What is the value of AI art: Evidence from a juried art exhibition',
+    title: 'What is the value of AI art: Evidence from a juried art exhibition',
     category: 'conferences',
     date: '2026-02-23',
-    excerpt:
-      'Wisdom Obinna, Judy Wang, Gabriel Lima, Kristelia Garcia, Nina Girgic Hlaca, Toni-Lee Sangastiano, Elissa Redmiles. ACM Creativity and Cognition.',
-    paperUrl: null,
-    citation: null,
+    authors:
+      'W. Obinna, J. Wang, G. Lima, K. Garcia, N. Girgic Hlaca, T. Sangastiano, and E. Redmiles',
+    authorSelf: 'W. Obinna',
+    venue: 'ACM Creativity and Cognition',
+    links: {},
+    aiArtLink:
+      'https://tes.georgetown.edu/announcements/prof-elissa-redmiles-co-organizes-juried-ai-art-competition-with-georgetown-art-computer-science-law/',
   },
   {
     id: 'analytics',
@@ -45,11 +46,11 @@ export const publications = [
       'Improving online Real Estate Management System using data analytics',
     category: 'manuscripts',
     date: '2022-06-03',
-    excerpt:
-      'In this work, we propose an application of machine learning techniques in online Real Estate markets to enhance trustworthiness and improve safety in online property interactions.',
-    paperUrl:
-      'https://drive.google.com/file/d/1J9UXtta8jEiagjP8W7I_LUH9DXepDtkU/view?usp=sharing',
-    citation:
-      'WK Obinna, MJ Udo. "Improving online real estate management system using data analytics." Journal of Emerging Technologies 2 (2), 66-75, 2022.',
+    authors: 'W.K. Obinna and M.J. Udo',
+    authorSelf: 'W.K. Obinna',
+    venue: 'Journal of Emerging Technologies 2 (2), 66-75, 2022',
+    links: {
+      pdf: 'https://drive.google.com/file/d/1J9UXtta8jEiagjP8W7I_LUH9DXepDtkU/view?usp=sharing',
+    },
   },
 ];
