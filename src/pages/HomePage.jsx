@@ -42,7 +42,7 @@ export default function HomePage() {
 
         <h2>Publications</h2>
 
-        {publicationCategories.filter((cat) => cat.key !== 'conferences').map((cat) => {
+        {publicationCategories.map((cat) => {
           const items = publications.filter((p) => p.category === cat.key);
           if (items.length === 0) return null;
           return (

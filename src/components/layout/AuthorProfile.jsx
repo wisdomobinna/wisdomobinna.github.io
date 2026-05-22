@@ -3,6 +3,13 @@ import { author } from '../../data/siteConfig';
 export default function AuthorProfile() {
   return (
     <div className="author-profile">
+      {author.avatar && (
+        <img
+          src={author.avatar}
+          alt={author.name}
+          className="author-profile__avatar"
+        />
+      )}
       <h3 className="author-profile__name" style={{ color: 'var(--color-primary)' }}>{author.name}</h3>
       <div className="author-profile__icons">
         {author.links.map((link) => (
@@ -20,14 +27,6 @@ export default function AuthorProfile() {
         ))}
       </div>
       <div>
-        <p
-          className="author-profile__bio"
-          dangerouslySetInnerHTML={{ __html: author.bio }}
-        />
-        <p className="author-profile__location">
-          <i className="fas fa-fw fa-map-marker-alt" />
-          {author.location}
-        </p>
         <p className="author-profile__meta">
           <strong>Email</strong>: wko7[at]georgetown.edu
         </p>
