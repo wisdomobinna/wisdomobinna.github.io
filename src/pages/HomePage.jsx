@@ -12,9 +12,9 @@ export default function HomePage() {
           <a href="https://elissaredmiles.com/" target="_blank" rel="noopener noreferrer">
             Professor Elissa Redmiles
           </a>{' '}
-          on topics that intersect safety, and security. My research
+          on topics intersecting with safety, and security. My research
           interests are broadly in the security and trustworthiness of online systems. I combine
-          computational and data science methods to understand these challenges and develop intelligent
+          computational and social science methods to understand these challenges and develop intelligent
           tools to support these processes. Before Georgetown, I was a Research Assistant at the {' '}
           <a href="https://www.sheffield.ac.uk/" target="_blank" rel="noopener noreferrer">
             University of Sheffield
