@@ -20,27 +20,31 @@ export default function HomePage() {
           online content, including AI-generated and user-generated media, shapes digital safety, public
           discourse, and trust. I combine computational and social science methods to understand these
           challenges and build intelligent tools that help address them.
+          Before Georgetown, I was a Research Assistant at the{' '}
+          <a href="https://www.sheffield.ac.uk/" target="_blank" rel="noopener noreferrer">
+            University of Sheffield&rsquo;s School of Information, Journalism and Media
+          </a>{' '}
+          in the United Kingdom, advised by{' '}
+          <a href="https://sheffield.ac.uk/ijc/people/academic-staff/ilya-yablokov" target="_blank" rel="noopener noreferrer">
+            Ilya Yablokov
+          </a>{' '}
+          and{' '}
+          <a href="https://sheffield.ac.uk/ijc/people/academic-staff/bina-ogbebor" target="_blank" rel="noopener noreferrer">
+            Bina Ogbebor
+          </a>. My undergraduate degree was in computer science with a focus on security and trust in
+          online systems. Before graduate school, I previously held roles in software engineering and
+          data science across technology, media, and health organizations.
         </p>
 
         <p>
-          When I&rsquo;m not doing research, you can find me writing about AI in the Global South
+          When I&rsquo;m not doing research, you can find me writing about AI in the majority world
           at{' '}
           <a href="https://humuslabs.com" target="_blank" rel="noopener noreferrer">
             Humus Labs
           </a>
-          , writing and chatting at{' '}
-          <a href="https://www.youtube.com/@Thereadai" target="_blank" rel="noopener noreferrer">
-            ReadAI
-          </a>{' '}
-          and
-          {' '}<a href="thereadai.com" target="_blank" rel="noopener noreferrer">
+          , and other developments in AI at {' '}<a href="thereadai.com" target="_blank" rel="noopener noreferrer">
             TheReadAI.com
           </a>
-          , and volunteering with friends to build a discovery platform for AI tools at{' '}
-          <a href="https://cefini.com" target="_blank" rel="noopener noreferrer">
-            Cefini.com
-          </a>
-          .
         </p>
 
         <h2>Publications</h2>
