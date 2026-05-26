@@ -8,29 +8,18 @@ export default function HomePage() {
       <div className="page-content">
         <h2 style={{ marginTop: 0 }}>About Me</h2>
         <p>
-          I am a Computer Science Ph.D. student at Georgetown University, where I work with{' '}
+          I am a Computer Science Ph.D. student at{' '}
+          <a href="https://cs.georgetown.edu/" target="_blank" rel="noopener noreferrer">
+            Georgetown University
+          </a>
+          , where I work with{' '}
           <a href="https://elissaredmiles.com/" target="_blank" rel="noopener noreferrer">
             Professor Elissa Redmiles
           </a>{' '}
-          on topics intersecting with safety, and security. My research
-          interests are broadly in the security and trustworthiness of online systems. I combine
-          computational and social science methods to understand these challenges and develop intelligent
-          tools to support these processes. Before Georgetown, I was a Research Assistant at the {' '}
-          <a href="https://www.sheffield.ac.uk/" target="_blank" rel="noopener noreferrer">
-            University of Sheffield
-          </a>{' '}
-          in the
-          United Kingdom, advised by{' '}
-          <a href="https://sheffield.ac.uk/ijc/people/academic-staff/ilya-yablokov" target="_blank" rel="noopener noreferrer">
-            Ilya Yablokov
-          </a>{' '}
-          and{' '}
-          <a href="https://sheffield.ac.uk/ijc/people/academic-staff/bina-ogbebor" target="_blank" rel="noopener noreferrer">
-            Bina Ogbebor
-          </a>. My undergraduate degree was
-          in computer science with a focus on security and trust in online systems. Before graduate school, I previously
-          held roles in software engineering and data science across technology, media, and health
-          organizations.
+          on problems at the intersection of safety, security, and society. My research examines how
+          online content, including AI-generated and user-generated media, shapes digital safety, public
+          discourse, and trust. I combine computational and social science methods to understand these
+          challenges and build intelligent tools that help address them.
         </p>
 
         <p>
