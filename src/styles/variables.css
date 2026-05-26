@@ -1,6 +1,6 @@
 :root {
   /* Colors */
-  --color-primary: #b31b1b;
+  --color-primary: #8B0000;
   --color-background: #eeeeee;
   --color-body: #fff;
   --color-text: #222831;
@@ -15,9 +15,9 @@
   --color-link: #52adc8;
   --color-link-hover: #3d8296;
   --color-link-visited: #89c8da;
-  --color-masthead-link: #b31b1b;
-  --color-masthead-link-hover: #8e1515;
-  --color-pub-link: #8e1515;
+  --color-masthead-link: #8B0000;
+  --color-masthead-link-hover: #660000;
+  --color-pub-link: #660000;
 
   --color-success: #62c462;
   --color-warning: #f89406;
