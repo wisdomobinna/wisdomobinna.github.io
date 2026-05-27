@@ -50,7 +50,7 @@ export default function HomePage() {
           </a>
         </p>
 
-        <h2>Publications</h2>
+        {/* <h2>Publications</h2> */}
 {/* 
         {publicationCategories.map((cat) => {
           const items = publications.filter((p) => p.category === cat.key);
