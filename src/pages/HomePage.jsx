@@ -51,7 +51,7 @@ export default function HomePage() {
         </p>
 
         <h2>Publications</h2>
-
+{/* 
         {publicationCategories.map((cat) => {
           const items = publications.filter((p) => p.category === cat.key);
           if (items.length === 0) return null;
@@ -71,7 +71,7 @@ export default function HomePage() {
               ))}
             </section>
           );
-        })}
+        })} */}
       </div>
     </PageLayout>
   );
