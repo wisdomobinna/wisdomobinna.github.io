@@ -30,9 +30,17 @@
   --color-twitter: #55acee;
   --color-orcid: #a6ce39;
 
+  /* Sidebar (NexT/Gemini-inspired dark panel) */
+  --color-sidebar-bg: #1c1e22;
+  --color-sidebar-text: #eceef0;
+  --color-sidebar-muted: #9aa0a6;
+  --color-sidebar-border: rgba(255, 255, 255, 0.08);
+  --color-sidebar-hover: rgba(255, 255, 255, 0.06);
+
   /* Typography */
-  --font-sans: -apple-system, '.SFNSText-Regular', 'San Francisco', 'Roboto',
-    'Segoe UI', 'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
+  --font-sans: 'Inter', -apple-system, '.SFNSText-Regular', 'San Francisco',
+    'Roboto', 'Segoe UI', 'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
+  --font-heading: 'Source Serif 4', Georgia, Times, serif;
   --font-serif: Georgia, Times, serif;
   --font-mono: Monaco, Consolas, 'Lucida Console', monospace;
 
@@ -58,8 +66,8 @@
   --bp-sidebar: 1024px;
 
   /* Layout */
-  --masthead-height: 70px;
-  --sidebar-width: 250px;
+  --masthead-height: 56px;
+  --sidebar-width: 280px;
   --border-radius: 4px;
   --box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125);
   --transition: all 0.2s ease-in-out;

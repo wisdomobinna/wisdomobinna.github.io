@@ -1,15 +1,15 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import Masthead from './Masthead';
 import Sidebar from './Sidebar';
-import AuthorProfile from './AuthorProfile';
+import ThemeToggle from './ThemeToggle';
+import BackToTop from './BackToTop';
 import Footer from './Footer';
 
 export default function PageLayout({ children, title }) {
-  const { pathname } = useLocation();
+  const { pathname, hash } = useLocation();
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    if (!hash) window.scrollTo(0, 0);
   }, [pathname]);
 
   useEffect(() => {
@@ -18,16 +18,12 @@ export default function PageLayout({ children, title }) {
 
   return (
     <>
-      <Masthead />
-      <div className="page-wrapper">
+      <ThemeToggle />
+      <BackToTop />
+      <main className="container">
         <Sidebar />
-        <main className="page-content">
-          <div className="author-profile--mobile">
-            <AuthorProfile />
-          </div>
-          {children}
-        </main>
-      </div>
+        <div className="main-content">{children}</div>
+      </main>
       <Footer />
     </>
   );

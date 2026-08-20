@@ -3,8 +3,8 @@ import PageLayout from '../components/layout/PageLayout';
 export default function AiArtPage() {
   return (
     <PageLayout title="AI Art Competition & Exhibition">
-      <h1 className="page-title">AI Art Competition &amp; Exhibition</h1>
-      <div className="page-content">
+      <section className="section">
+        <h2 className="section-title">AI Art Competition &amp; Exhibition</h2>
         <p>
           The Georgetown AI Art Competition &amp; Exhibition is an
           interdisciplinary initiative bringing together art, computer science,
@@ -27,7 +27,7 @@ export default function AiArtPage() {
             aiart.georgetown.domains
           </a>
         </p>
-      </div>
+      </section>
     </PageLayout>
   );
 }

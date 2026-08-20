@@ -6,6 +6,7 @@ export const publicationCategories = [
 export const publications = [
   {
     id: 'dns-resolver',
+    tag: "SOUPS '26",
     title:
       'I See DNS People: DNS Resolver Security, Through Operator Perspectives and Practices',
     category: 'conferences',
@@ -17,6 +18,7 @@ export const publications = [
   },
   {
     id: 'csam-filtering',
+    tag: "IEEE S&P '26",
     title:
       'Evaluating Concept Filtering Defenses against Child Sexual Abuse Material Generation by Text-to-Image Models',
     category: 'conferences',
@@ -29,6 +31,7 @@ export const publications = [
   },
   {
     id: 'ai-art-value',
+    tag: "C&C '26",
     title: 'What is the value of AI art: Evidence from a juried art exhibition',
     category: 'conferences',
     date: '2026-02-23',
@@ -42,6 +45,7 @@ export const publications = [
   },
   {
     id: 'analytics',
+    tag: 'JET \'22',
     title:
       'Improving online Real Estate Management System using data analytics',
     category: 'manuscripts',
