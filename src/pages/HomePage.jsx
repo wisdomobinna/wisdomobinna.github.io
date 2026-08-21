@@ -7,7 +7,7 @@ export default function HomePage() {
   return (
     <PageLayout title="About me">
       <section id="biography" className="section">
-        <h2 className="section-title">Biography</h2>
+        <h2 className="section-title">Bio</h2>
         <p>
           I am a third-year Computer Science PhD student at{' '}
           <a href="https://cs.georgetown.edu/" target="_blank" rel="noopener noreferrer">
