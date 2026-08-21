@@ -4,6 +4,7 @@ import { mainNav } from '../../data/navigation';
 
 export default function Sidebar() {
   const [activeId, setActiveId] = useState(null);
+  const [navOpen, setNavOpen] = useState(false);
   const navRef = useRef(null);
 
   useEffect(() => {
@@ -59,19 +60,33 @@ export default function Sidebar() {
         />
 
         {mainNav.length > 0 && (
-          <nav className="sidebar-nav" ref={navRef}>
-            <p className="sidebar-nav-label">Contents</p>
-            {mainNav.map((item) => (
-              <a
-                key={item.url}
-                href={item.url}
-                className={activeId && item.url === `/#${activeId}` ? 'active' : undefined}
-                aria-current={activeId && item.url === `/#${activeId}` ? 'true' : undefined}
-              >
-                {item.title}
-              </a>
-            ))}
-          </nav>
+          <>
+            <button
+              type="button"
+              className="sidebar-nav-toggle"
+              onClick={() => setNavOpen((v) => !v)}
+              aria-expanded={navOpen}
+            >
+              Contents
+              <i className="chevron fas fa-chevron-down" />
+            </button>
+            <nav
+              className={`sidebar-nav${navOpen ? ' is-open' : ''}`}
+              ref={navRef}
+            >
+              {mainNav.map((item) => (
+                <a
+                  key={item.url}
+                  href={item.url}
+                  onClick={() => setNavOpen(false)}
+                  className={activeId && item.url === `/#${activeId}` ? 'active' : undefined}
+                  aria-current={activeId && item.url === `/#${activeId}` ? 'true' : undefined}
+                >
+                  {item.title}
+                </a>
+              ))}
+            </nav>
+          </>
         )}
       </div>
     </aside>
