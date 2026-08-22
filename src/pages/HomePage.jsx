@@ -43,7 +43,8 @@ export default function HomePage() {
           </a>
           .
         </p>
-        <p>My research interests lie in:</p>
+        
+        {/* <p>My research interests lie in:</p>
         <ul className="bio-interests">
           
           <li>
@@ -62,7 +63,7 @@ export default function HomePage() {
           </li>
 
           
-        </ul>
+        </ul> */}
         <p className="bio-contact">
           <strong>Email:</strong> wko7(at)georgetown(dot)edu
         </p>
