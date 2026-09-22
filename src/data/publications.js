@@ -29,20 +29,20 @@ export const publications = [
     venue: 'IEEE Symposium on Security and Privacy 2026',
     links: { paper: 'https://arxiv.org/abs/2512.05707' },
   },
-  {
-    id: 'ai-art-value',
-    tag: "C&C '26",
-    title: 'What is the value of AI art: Evidence from a juried art exhibition',
-    category: 'conferences',
-    date: '2026-02-23',
-    authors:
-      'W. Obinna, J. Wang, G. Lima, K. Garcia, N. Girgic Hlaca, T. Sangastiano, and E. Redmiles',
-    authorSelf: 'W. Obinna',
-    venue: 'ACM Conference on Creativity & Cognition 2026',
-    links: {},
-    aiArtLink:
-      'https://tes.georgetown.edu/announcements/prof-elissa-redmiles-co-organizes-juried-ai-art-competition-with-georgetown-art-computer-science-law/',
-  },
+  // {
+  //   id: 'ai-art-value',
+  //   tag: "C&C '26",
+  //   title: 'What is the value of AI art: Evidence from a juried art exhibition',
+  //   category: 'conferences',
+  //   date: '2026-02-23',
+  //   authors:
+  //     'W. Obinna, J. Wang, G. Lima, K. Garcia, N. Girgic Hlaca, T. Sangastiano, and E. Redmiles',
+  //   authorSelf: 'W. Obinna',
+  //   venue: 'ACM Conference on Creativity & Cognition 2026',
+  //   links: {},
+  //   aiArtLink:
+  //     'https://tes.georgetown.edu/announcements/prof-elissa-redmiles-co-organizes-juried-ai-art-competition-with-georgetown-art-computer-science-law/',
+  // },
   {
     id: 'analytics',
     tag: 'JET \'22',
