@@ -15,24 +15,9 @@ export const author = {
   advisor: { name: 'Elissa Redmiles', url: 'https://elissaredmiles.com/' },
   links: [
     {
-      label: 'Email',
-      icon: 'fas fa-envelope',
-      url: 'mailto:wko7@georgetown.edu',
-    },
-    {
       label: 'Google Scholar',
       icon: 'ai ai-google-scholar',
       url: 'https://scholar.google.co.uk/citations?hl=en&user=JH2WgtIAAAAJ',
-    },
-    {
-      label: 'ORCID',
-      icon: 'ai ai-orcid',
-      url: 'https://orcid.org/0000-0003-1940-8754',
-    },
-    {
-      label: 'LinkedIn',
-      icon: 'fab fa-linkedin-in',
-      url: 'https://www.linkedin.com/in/wisdom-obinna/',
     },
     {
       label: 'GitHub',
@@ -40,14 +25,9 @@ export const author = {
       url: 'https://github.com/wisdomobinna',
     },
     {
-      label: 'X',
-      icon: 'fab fa-x-twitter',
-      url: 'https://twitter.com/wisdomKobinna',
-    },
-    {
-      label: 'Medium',
-      icon: 'fab fa-medium',
-      url: 'https://medium.com/@wisdom_obinna',
+      label: 'LinkedIn',
+      icon: 'fab fa-linkedin-in',
+      url: 'https://www.linkedin.com/in/wisdom-obinna/',
     },
   ],
 };
