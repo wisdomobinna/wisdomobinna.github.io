@@ -20,16 +20,6 @@ export default function MiscPage() {
           </p>
         </div>
       </section>
-
-      <section className="section">
-        <SectionHead label="Outlook" title="An AI optimist" />
-        <div className="prose">
-          <p>
-            I care about making the world better through technology, which is
-            exactly why I spend my days studying where it goes wrong.
-          </p>
-        </div>
-      </section>
     </PageLayout>
   );
 }
