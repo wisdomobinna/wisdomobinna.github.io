@@ -1,10 +1,10 @@
 // Research threads shown on the home page. `pubs` are ids from publications.js.
 export const threads = [
   {
-    key: 'security',
-    title: 'Security, through the people who run it',
-    body: 'Infrastructure is only as safe as the decisions of the people operating it. I interview and survey the operators behind systems like DNS resolvers to understand how security gets practised, traded off, and sometimes quietly skipped.',
-    pubs: ['dns-resolver'],
+    key: 'creativity',
+    title: 'Authorship and value in AI-assisted art',
+    body: 'I built and ran a juried AI art competition at Georgetown, instrumenting every prompt and revision, to ask who people think the author is, what the work is worth, and what protections creators want.',
+    link: { label: 'The exhibition', url: '/art/' },
   },
   {
     key: 'safety',
@@ -13,10 +13,10 @@ export const threads = [
     pubs: ['csam-filtering'],
   },
   {
-    key: 'creativity',
-    title: 'Authorship and value in AI-assisted art',
-    body: 'I built and ran a juried AI art competition at Georgetown, instrumenting every prompt and revision, to ask who people think the author is, what the work is worth, and what protections creators want.',
-    link: { label: 'The exhibition', url: '/art/' },
+    key: 'security',
+    title: 'Security, through the people who run it',
+    body: 'Infrastructure is only as safe as the decisions of the people operating it. I interview and survey the operators behind systems like DNS resolvers to understand how security gets practised, traded off, and sometimes quietly skipped.',
+    pubs: ['dns-resolver'],
   },
 ];
 
