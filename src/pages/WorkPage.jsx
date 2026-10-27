@@ -37,12 +37,12 @@ export default function WorkPage() {
               <a href={author.advisor.url} target="_blank" rel="noopener noreferrer">
                 Elissa Redmiles
               </a>
-              . I work in usable security, privacy, and human-centered AI.
+              .
             </p>
             <p>
-              My work broadly focuses on human-AI interaction. I develop systems to
-              evaluate how AI changes the way people create, judge, and value work
-              made with AI. I also study how to align generative AI systems with
+              My work broadly focuses on artificial intelligence and society. I
+              develop systems to evaluate how AI changes the way people create,
+              judge, and value work made with AI. I also study how to align generative AI systems with
               people&rsquo;s intent to better meet their expectations, beginning
               with the ethics of the data they are built on. I am cautiously
               optimistic about the future, and want to contribute to technology
