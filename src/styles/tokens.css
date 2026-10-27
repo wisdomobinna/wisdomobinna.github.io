@@ -1,0 +1,72 @@
+/* Plain white paper and near-black ink, after bhadayun.com. Colour comes from
+   the painted sky on the landing page, not from the interface. */
+:root {
+  --bg: #fff;
+  --surface: #f3f3f3;
+  --ink: #181818;
+  --ink-2: #333;
+  --muted: #666;
+  --rule: #e4e4e4;
+  --rule-strong: #cfcfcf;
+  --accent: #181818;
+  --accent-ink: #fff;
+  --accent-soft: #f3f3f3;
+  --dock-bg: rgba(255, 255, 255, 0.92);
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06);
+
+  /* The painted sky behind the landing page */
+  --sky-top: #041a52;
+  --sky-mid: #0a3a86;
+  --sky-low: #1f63ad;
+  --sky-ink: #f4f4f0;
+  --sky-dock: rgba(20, 26, 34, 0.72);
+
+  /* Type */
+  --font-serif: 'EB Garamond', Garamond, 'Iowan Old Style', Georgia, serif;
+  --font-display: 'EB Garamond', Garamond, Georgia, serif;
+  --font-sans: var(--font-serif);
+  --font-mono: var(--font-serif);
+
+  /* Layout */
+  --measure: 45rem;
+  --wide: 68rem;
+  --gutter: clamp(1rem, 4vw, 2rem);
+  --dock-h: 3.4rem;
+
+  color-scheme: light;
+}
+
+:root[data-theme='dark'] {
+  --bg: #000;
+  --surface: #151515;
+  --ink: #eaeaea;
+  --ink-2: #cfcfcf;
+  --muted: #a0a0a0;
+  --rule: #252525;
+  --rule-strong: #3a3a3a;
+  --accent: #f0f0f0;
+  --accent-ink: #000;
+  --accent-soft: #1c1c1c;
+  --dock-bg: rgba(0, 0, 0, 0.88);
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px rgba(0, 0, 0, 0.4);
+
+  color-scheme: dark;
+}
+
+/* No-JS fallback: follow the system theme when no explicit theme is set. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --bg: #000;
+    --surface: #151515;
+    --ink: #eaeaea;
+    --ink-2: #cfcfcf;
+    --muted: #a0a0a0;
+    --rule: #252525;
+    --rule-strong: #3a3a3a;
+    --accent: #f0f0f0;
+    --accent-ink: #000;
+    --accent-soft: #1c1c1c;
+    --dock-bg: rgba(0, 0, 0, 0.88);
+    color-scheme: dark;
+  }
+}

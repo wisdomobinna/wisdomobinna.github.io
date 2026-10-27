@@ -3,9 +3,15 @@ import PageLayout from '../components/layout/PageLayout';
 export default function CvPage() {
   return (
     <PageLayout title="CV">
-      <section className="section">
-        <h2 className="section-title">CV</h2>
-        <p>
+      <header className="page-head cv-head">
+        <p className="section-label">Curriculum vitae</p>
+        <h1 className="page-title">Wisdom Obinna</h1>
+        <button type="button" className="button button-quiet no-print" onClick={() => window.print()}>
+          <i className="fas fa-print" aria-hidden="true" /> Print or save as PDF
+        </button>
+      </header>
+      <section className="section cv">
+        <p className="cv-contact">
           3700 O St NW, Washington, DC 20057 &bull; wko7@georgetown.edu &bull;{' '}
           <a href="https://www.linkedin.com/in/wisdom-obinna/" target="_blank" rel="noopener noreferrer">
             LinkedIn
@@ -88,19 +94,6 @@ export default function CvPage() {
             <br />
             <em>Advisors:</em> Elissa Redmiles, Kristelia Garcia, Toni-Lee
             Sangastiano
-            <br />
-            Designed and deployed an interactive generative AI system for a
-            juried art competition, instrumented to capture iterative creation
-            behavior, decision timestamps, prompt revisions, and
-            authorship-attribution data throughout the creative process.
-            Developed and administered structured creator and evaluator surveys
-            examining perceived authorship, creative contribution, copyright
-            ownership, and desired legal protections; coordinated a multi-stage
-            evaluation involving 115 peer jurors and five expert judges to
-            assess submissions and select 12 featured works. Presented findings
-            at Lauinger Library (Apr 2025) and the Center for Democracy &amp;
-            Technology&rsquo;s Tech Prom at The LINE DC (Oct 2025), contributing
-            evidence relevant to U.S. Copyright Office policy discussions.
           </li>
           <li>
             <strong>Research Group Member</strong>, Center for AI and Digital

@@ -1,10 +1,11 @@
+// Each tab pairs an Igbo word with its English label, like a gloss.
 export const mainNav = [
-  { title: 'About', url: '/#biography' },
-  { title: 'Publications', url: '/#publications' },
-  { title: 'Education', url: '/#education' },
-  { title: 'Awards', url: '/#awards' },
-  { title: 'Academic Services', url: '/#service' },
-  { title: 'Presentations', url: '/#presentations' },
-  { title: 'Teaching', url: '/#teaching' },
-  { title: 'Misc', url: '/#misc' },
+  { igbo: 'Ngwa', title: 'Builds', url: '/builds/' },
+  { igbo: 'Nka', title: 'Art', url: '/art/' },
+  { igbo: 'Ederede', title: 'Writing', url: '/writing/' },
+  { igbo: 'Obinna', title: 'Home', url: '/' },
+  { igbo: 'Ọrụ', title: 'Work', url: '/work/' },
+  { igbo: 'Nkuzi', title: 'Teaching', url: '/teaching/' },
+  { igbo: 'Njem', title: 'Journey', url: '/journey/' },
+  { igbo: 'Ihe ọzọ', title: 'Misc', url: '/misc/' },
 ];

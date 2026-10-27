@@ -1,195 +1,86 @@
+import { useRef } from 'react';
+import { Link } from 'react-router-dom';
 import PageLayout from '../components/layout/PageLayout';
-import PubEntry from '../components/shared/PubEntry';
-import ItemRow from '../components/shared/ItemRow';
-import { publications, publicationCategories } from '../data/publications';
+import useScrollFade from '../hooks/useScrollFade';
+import useScrollVar from '../hooks/useScrollVar';
+import { author, nameGloss } from '../data/siteConfig';
+
+// One tall painting, read top to bottom: night, open sky, through the clouds,
+// dusk, and finally the obi with its door lit. `at` is the line's position
+// down the painting, as a fraction of its height.
+const moments = [
+  { at: 0, lines: ['You found Wisdom’s', 'corner of the sky'] },
+  { at: 0.13, lines: ['Fall slowly.', 'The clouds are softer than they look.'] },
+  { at: 0.27, lines: ['Every cloud up here', 'is a question someone forgot to ask.'] },
+  { at: 0.41, lines: ['Every system is a story about people.', 'I go looking for the people.'] },
+  { at: 0.54, gloss: nameGloss[0] },
+  { at: 0.64, gloss: nameGloss[1] },
+  { at: 0.75, lines: ['Down there, a light is on.', 'Someone kept the door open.'] },
+];
+
+// A few fireflies in the yard at dusk.
+const fireflies = [
+  [18, 92.2, 0], [27, 93.6, 1.8], [41, 92.8, 0.9], [49, 94.6, 2.6],
+  [58, 93.1, 1.2], [66, 95.2, 3.1], [74, 92.6, 0.4], [83, 94.1, 2.2],
+];
 
 export default function HomePage() {
+  const skyRef = useRef(null);
+  useScrollFade(skyRef, '.sky-moment', { full: 0.35, lift: 24 });
+  useScrollVar(skyRef);
+
   return (
-    <PageLayout title="About me">
-      <section id="biography" className="section">
-        <h2 className="section-title">Bio</h2>
-        <p>
-          I am a third-year Computer Science PhD student at{' '}
-          <a href="https://cs.georgetown.edu/" target="_blank" rel="noopener noreferrer">
-            Georgetown University
-          </a>
-          , advised by Professor{' '}
-          <a href="https://elissaredmiles.com/" target="_blank" rel="noopener noreferrer">
-            Elissa Redmiles
-          </a>
-          .
-        </p>
-        <p>
-          I received my Bachelor&rsquo;s degree from the University of Port
-          Harcourt, and my Master&rsquo;s degree from the{' '}
-          <a href="https://www.sheffield.ac.uk/" target="_blank" rel="noopener noreferrer">
-            University of Sheffield
-          </a>
-          , in 2020 and 2023 respectively, advised by{' '}
-          <a
-            href="https://sheffield.ac.uk/ijc/people/academic-staff/ilya-yablokov"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Ilya Yablokov
-          </a>{' '}
-          and{' '}
-          <a
-            href="https://sheffield.ac.uk/ijc/people/academic-staff/bina-ogbebor"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Bina Ogbebor
-          </a>
-          .
-        </p>
-        
-        {/* <p>My research interests lie in:</p>
-        <ul className="bio-interests">
-          
-          <li>
-            <span className="highlight">Human-AI interaction</span>: studying
-            how people use, interpret and interact with AI systems and their outputs.
-          </li>
+    <PageLayout home>
+      <div className="sky" ref={skyRef}>
+        <h1 className="sr-only">
+          {author.name}, {author.role} at {author.employer}
+        </h1>
 
-          <li>
-            <span className="highlight">Data-driven safety</span>: measuring
-            safety problems in the wild through empirical analysis.
-          </li>
+        <div className="sky-cloud sky-cloud-1" aria-hidden="true" />
+        <div className="sky-cloud sky-cloud-2" aria-hidden="true" />
 
-          <li>
-            <span className="highlight">Security</span>: understanding
-            decision-making processes in underground technological systems.
-          </li>
+        {fireflies.map(([x, y, delay]) => (
+          <span
+            key={`${x}-${y}`}
+            className="firefly"
+            style={{ left: `${x}%`, top: `${y}%`, animationDelay: `${delay}s` }}
+            aria-hidden="true"
+          />
+        ))}
 
-          
-        </ul> */}
-        <p className="bio-contact">
-          <strong>Email:</strong> wko7(at)georgetown(dot)edu
-        </p>
-      </section>
+        {moments.map((m) => (
+          <div key={m.at} className="sky-moment" style={{ top: `${m.at * 100}%` }}>
+            {m.lines && (
+              <p className="sky-lines">
+                {m.lines.map((line) => (
+                  <span key={line}>{line}</span>
+                ))}
+              </p>
+            )}
+            {m.gloss && (
+              <dl className="sky-gloss">
+                <dt lang="ig">{m.gloss.word}</dt>
+                <dd>
+                  <span>{m.gloss.meaning}</span>
+                  <span className="sky-gloss-note">{m.gloss.note}</span>
+                </dd>
+              </dl>
+            )}
+          </div>
+        ))}
 
-      <section id="publications" className="section">
-        <p className="section-label">Research</p>
-        <h2 className="section-title">Publications</h2>
-
-        {publicationCategories.map((cat) => {
-          const items = publications.filter((p) => p.category === cat.key);
-          if (items.length === 0) return null;
-          return (
-            <div key={cat.key}>
-              {cat.showTitle && <h3 className="section-subtitle">{cat.title}</h3>}
-              {items.map((pub) => (
-                <PubEntry
-                  key={pub.id}
-                  tag={pub.tag}
-                  title={pub.title}
-                  authors={pub.authors}
-                  authorSelf={pub.authorSelf}
-                  links={pub.links}
-                  aiArtLink={pub.aiArtLink}
-                />
-              ))}
-            </div>
-          );
-        })}
-      </section>
-
-      <section id="education" className="section">
-        <p className="section-label">Background</p>
-        <h2 className="section-title">Education</h2>
-        <ItemRow date="2024 - 2029">
-          <strong>Georgetown University</strong>, Washington, DC &mdash; PhD in
-          Computer Science
-        </ItemRow>
-        <ItemRow date="2022 - 2023">
-          <strong>University of Sheffield</strong>, United Kingdom &mdash; M.A. in
-          Global Journalism
-        </ItemRow>
-        <ItemRow date="2015 - 2020">
-          <strong>University of Port Harcourt</strong>, Nigeria &mdash; B.S. in
-          Computer Science
-        </ItemRow>
-      </section>
-
-      <section id="awards" className="section">
-        <p className="section-label">Recognition</p>
-        <h2 className="section-title">Awards &amp; Honors</h2>
-        <ItemRow date="2025">
-          Fellow, United Nations 63rd Graduate Study Program, Geneva, Switzerland
-          (top 5% of 1,250 graduate students across 203 countries)
-        </ItemRow>
-        <ItemRow date="2025">
-          Honorary Fellow, Fellowships at Auschwitz for the Study of Professional
-          Ethics &mdash; Germany, Poland
-        </ItemRow>
-        <ItemRow date="2024">Fritz Family Fellowship, USA</ItemRow>
-        <ItemRow date="2023">Emerging Leaders Award, Black in AI, USA</ItemRow>
-        <ItemRow date="2022">
-          Allan and Nesta Ferguson Trust Scholarship, University of Sheffield, United Kingdom (top 1% of 1,000+ applicants)
-        </ItemRow>
-        <ItemRow date="2022">
-          U.S. Department of State, EducationUSA Opportunity Funds Award (top 1%
-          of 7,500+ applicants)
-        </ItemRow>
-        <ItemRow date="2020">
-          Best Graduating Student, Department of Computer Science, University of
-          Port Harcourt, Nigeria (2019 Class)
-        </ItemRow>
-      </section>
-
-      <section id="service" className="section">
-        <p className="section-label">Community</p>
-        <h2 className="section-title">Academic Services</h2>
-
-        <ItemRow date="2022.09 - 2023.05">
-          <strong>President</strong>, All African Post Graduate Research Network
-          Society, United Kingdom
-        </ItemRow>
-        <ItemRow date="2022.09 - 2023.05">
-          <strong>Student Representative</strong>, National Union of Students
-          Conference, United Kingdom
-        </ItemRow>
-        <ItemRow date="2022.09 - 2023.05">
-          <strong>Departmental Representative</strong>, University of Sheffield
-        </ItemRow>
-      </section>
-
-      <section id="presentations" className="section">
-        <p className="section-label">Talks</p>
-        <h2 className="section-title">Invited Talks &amp; Workshops</h2>
-        <ItemRow date="2026">
-          Invited Workshop Organizer &amp; Facilitator, &ldquo;AI &amp; The Future
-          of Authorship, Ownership, and Copyright,&rdquo; Georgetown Day School,
-          Washington, DC
-        </ItemRow>
-        <ItemRow date="2026">
-          Invited Speaker &amp; Workshop Leader, Diversity Day, National Cathedral
-          School, Washington, DC
-        </ItemRow>
-      </section>
-
-      <section id="teaching" className="section">
-        <p className="section-label">Teaching</p>
-        <h2 className="section-title">Teaching Experience</h2>
-        <ItemRow date="2026.08 - 2026.12">
-          <strong>Introduction to Human-Centered Computing</strong>, Georgetown
-          University &mdash; Teaching Assistant
-        </ItemRow>
-      </section>
-
-      <section id="misc" className="section">
-        <p className="section-label">Personal</p>
-        <h2 className="section-title">Misc</h2>
-        <ItemRow date="2004 - now">
-          <strong>Rhythmic Soccer Fan.</strong> Proud to have maintained my
-          passion for this beautiful sport.
-        </ItemRow>
-      </section>
-
-      <footer className="footer">
-        <p>Last updated: {new Date().toISOString().slice(0, 10)}</p>
-      </footer>
+        <div className="sky-end">
+          <p className="sky-lines">
+            <span>Welcome to the obi.</span>
+          </p>
+          <Link to="/work/" className="sky-enter">
+            Come in <span aria-hidden="true">&rarr;</span>
+          </Link>
+          <p className="sky-foot">
+            <Link to="/site-index/">&copy; &infin; {author.name}</Link>
+          </p>
+        </div>
+      </div>
     </PageLayout>
   );
 }

@@ -1,0 +1,28 @@
+<!doctype html><html><head><style>html,body{margin:0;background:transparent}</style></head><body>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000">
+  <filter id="c" filterUnits="userSpaceOnUse" x="0" y="0" width="1600" height="1000">
+    <feTurbulence type="fractalNoise" baseFrequency="0.0016 0.0036" numOctaves="5" seed="31"/>
+    <feColorMatrix type="matrix" values="1 0 0 0 0  1 0 0 0 0  1 0 0 0 0  1 0 0 0 0"/>
+    <feComponentTransfer>
+      <feFuncR type="linear" slope="2.6" intercept="-0.86"/><feFuncG type="linear" slope="2.6" intercept="-0.86"/>
+      <feFuncB type="linear" slope="2.6" intercept="-0.86"/><feFuncA type="linear" slope="2.6" intercept="-0.86"/>
+    </feComponentTransfer>
+    <feComponentTransfer>
+      <feFuncR type="discrete" tableValues="0 0 0 0 0.74 0.86 0.95 1"/>
+      <feFuncG type="discrete" tableValues="0 0 0 0 0.83 0.92 0.98 1"/>
+      <feFuncB type="discrete" tableValues="0 0 0 0 0.94 0.98 1 1"/>
+      <feFuncA type="discrete" tableValues="0 0 0 0 1 1 1 1"/>
+    </feComponentTransfer>
+  </filter>
+  <linearGradient id="f" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.25" stop-color="#fff"/>
+    <stop offset="0.75" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <mask id="m"><rect width="1600" height="1000" fill="url(#f)"/></mask>
+  <filter id="cv" filterUnits="userSpaceOnUse" x="0" y="0" width="1600" height="1000">
+    <feTurbulence type="fractalNoise" baseFrequency="0.018 0.07" numOctaves="4" seed="11"/>
+    <feDiffuseLighting lighting-color="#fff" surfaceScale="2.4"><feDistantLight azimuth="235" elevation="52"/></feDiffuseLighting>
+    <feComposite in2="SourceGraphic" operator="in"/>
+  </filter>
+  <g mask="url(#m)" id="g"><rect width="1600" height="1000" filter="url(#c)"/></g>
+</svg></body></html>
