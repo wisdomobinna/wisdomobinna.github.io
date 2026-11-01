@@ -6,9 +6,11 @@ export default function CvPage() {
       <header className="page-head cv-head">
         <p className="section-label">Curriculum vitae</p>
         <h1 className="page-title">Wisdom Obinna</h1>
+        {/*
         <button type="button" className="button button-quiet no-print" onClick={() => window.print()}>
           <i className="fas fa-print" aria-hidden="true" /> Print or save as PDF
         </button>
+        */}
       </header>
       <section className="section cv">
         <p className="cv-contact">

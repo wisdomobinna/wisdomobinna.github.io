@@ -76,6 +76,7 @@ export default function WorkPage() {
           </ol>
         </section>
 
+        {/*
         <section id="publications" className="section">
           <SectionHead label="Papers" title="Publications" />
           {years.map((year) => (
@@ -95,6 +96,7 @@ export default function WorkPage() {
             </div>
           ))}
         </section>
+        */}
 
         <section id="news" className="section">
           <SectionHead label="Lately" title="News &amp; attending" />
